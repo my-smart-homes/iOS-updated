@@ -518,7 +518,6 @@
 		403AE92A2C2F3A9200D48147 /* IntentServerAppEntitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403AE9292C2F3A9200D48147 /* IntentServerAppEntitiy.swift */; };
 		403AE92B2C2F3A9200D48147 /* IntentServerAppEntitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403AE9292C2F3A9200D48147 /* IntentServerAppEntitiy.swift */; };
 		404C797F2C3491390010EB81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69933931E232AEA0054453D /* Localizable.strings */; };
-		404C79802C3491390010EB81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69933931E232AEA0054453D /* Localizable.strings */; };
 		4080D5BE2C319AA000099C88 /* WidgetDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080D5BD2C319AA000099C88 /* WidgetDetailsView.swift */; };
 		4080D5BF2C319AA000099C88 /* WidgetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080D5BC2C319AA000099C88 /* WidgetDetails.swift */; };
 		4080D5C42C319B0A00099C88 /* WidgetDetailsAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080D5C12C319B0A00099C88 /* WidgetDetailsAppIntent.swift */; };
@@ -1153,12 +1152,9 @@
 		B6B74CBE228399AC00D58A68 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2E6A1216AC21400D39A26 /* Action.swift */; };
 		B6C091232151F90300A326DC /* LocationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0911E2151F90300A326DC /* LocationHistory.swift */; };
 		B6C09153215206BB00A326DC /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D891720E0A85200D4F28D /* Shared.framework */; };
-		B6CC5D862159D10D00833E5D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CC5D842159D10D00833E5D /* Interface.storyboard */; };
-		B6CC5D882159D10E00833E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CC5D872159D10E00833E5D /* Assets.xcassets */; };
 		B6CC5D962159D10E00833E5D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC5D952159D10E00833E5D /* ExtensionDelegate.swift */; };
 		B6CC5D982159D10E00833E5D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC5D972159D10E00833E5D /* ComplicationController.swift */; };
 		B6CC5D9A2159D10F00833E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CC5D992159D10F00833E5D /* Assets.xcassets */; };
-		B6CC5D9E2159D10F00833E5D /* HomeAssistant-WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */; platformFilter = ios; };
 		B6D3B4ED225B26900082BB4F /* SensorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3B4EB225B26300082BB4F /* SensorContainer.swift */; };
 		B6D3B4EE225B26910082BB4F /* SensorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3B4EB225B26300082BB4F /* SensorContainer.swift */; };
 		B6D8A3282271448E00FA765D /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D8A3272271448D00FA765D /* error.json */; };
@@ -1266,13 +1262,6 @@
 			remoteGlobalIDString = D03D891620E0A85200D4F28D;
 			remoteInfo = "Shared-iOS";
 		};
-		119A172624D74DA800D1B66D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6CC5D8D2159D10E00833E5D;
-			remoteInfo = WatchAppExtension;
-		};
 		11A31C92252128B900D50A78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
@@ -1357,13 +1346,6 @@
 			remoteGlobalIDString = B6AAD7A01D827DD40090B220;
 			remoteInfo = APNSAttachmentService;
 		};
-		B6CC5D9C2159D10F00833E5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6CC5D812159D10D00833E5D;
-			remoteInfo = WatchApp;
-		};
 		D03D892A20E0A85300D4F28D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
@@ -1397,16 +1379,6 @@
 				110EC9FE251708D5009C9A1B /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		119A172824D74DA800D1B66D /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		11A31CA1252128C200D50A78 /* Embed Plugins */ = {
@@ -1465,7 +1437,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B6CC5D9E2159D10F00833E5D /* HomeAssistant-WatchApp.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2550,7 +2521,6 @@
 		B6C0911E2151F90300A326DC /* LocationHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHistory.swift; sourceTree = "<group>"; };
 		B6C2C17C20D1EC1300BD810B /* CLError+DebugDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLError+DebugDescription.swift"; sourceTree = "<group>"; };
 		B6C2C17E20D1F64D00BD810B /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
-		B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeAssistant-WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CC5D852159D10D00833E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		B6CC5D872159D10E00833E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CC5D892159D10E00833E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2700,13 +2670,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		11DE9D8025B6103C0081C0ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C44648FF2FAE89B2ED8FC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4834,7 +4797,6 @@
 				D03D891720E0A85200D4F28D /* Shared.framework */,
 				D03D894220E0BC1800D4F28D /* HomeAssistant-Tests-Shared.xctest */,
 				B66C58A5215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex */,
-				B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */,
 				B6CC5D8E2159D10E00833E5D /* HomeAssistant-WatchExtension-Watch.appex */,
 				B67CE82422200D420034C1D0 /* Shared.framework */,
 				1171506924DFCDE60065E874 /* HomeAssistant-Extensions-Widgets.appex */,
@@ -5596,7 +5558,6 @@
 				B6AAD7A71D827DD40090B220 /* PBXTargetDependency */,
 				1155DD0F250F4101003405C0 /* PBXTargetDependency */,
 				1171507524DFCDEE0065E874 /* PBXTargetDependency */,
-				B6CC5D9D2159D10F00833E5D /* PBXTargetDependency */,
 				11DE9F9825B6173D0081C0ED /* PBXTargetDependency */,
 				11B92912266F145000786588 /* PBXTargetDependency */,
 				11B6B5812948F8E100B8B552 /* PBXTargetDependency */,
@@ -5704,25 +5665,6 @@
 			productName = APNSAttachmentService;
 			productReference = B6AAD7A11D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex */;
 			productType = "com.apple.product-type.app-extension";
-		};
-		B6CC5D812159D10D00833E5D /* WatchApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6CC5DA52159D10F00833E5D /* Build configuration list for PBXNativeTarget "WatchApp" */;
-			buildPhases = (
-				11A67358268D9E7B00D1AFD4 /* Fix Xcode 12.5+ Dependency Issues */,
-				B6CC5D802159D10D00833E5D /* Resources */,
-				93C44648FF2FAE89B2ED8FC9 /* Frameworks */,
-				119A172824D74DA800D1B66D /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				119A172724D74DA800D1B66D /* PBXTargetDependency */,
-			);
-			name = WatchApp;
-			productName = WatchApp;
-			productReference = B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */;
-			productType = "com.apple.product-type.application.watchapp2";
 		};
 		B6CC5D8D2159D10E00833E5D /* WatchExtension-Watch */ = {
 			isa = PBXNativeTarget;
@@ -5917,15 +5859,6 @@
 							};
 						};
 					};
-					B6CC5D812159D10D00833E5D = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1530;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 					B6CC5D8D2159D10E00833E5D = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
@@ -6001,7 +5934,6 @@
 			targets = (
 				111711E425B29ACB003C149E /* Codegen */,
 				B657A8E51CA646EB00121384 /* App */,
-				B6CC5D812159D10D00833E5D /* WatchApp */,
 				11DE9D8225B6103C0081C0ED /* Launcher */,
 				D03D891620E0A85200D4F28D /* Shared-iOS */,
 				B67CE82322200D420034C1D0 /* Shared-watchOS */,
@@ -6284,16 +6216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6CC5D802159D10D00833E5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6CC5D882159D10E00833E5D /* Assets.xcassets in Resources */,
-				404C79802C3491390010EB81 /* Localizable.strings in Resources */,
-				B6CC5D862159D10D00833E5D /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6CC5D8C2159D10E00833E5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6389,26 +6311,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ \"$CI\" != \"true\" ]\nthen \n    # swiftlint as of 2021-01-21 (0.42.0) can't handle spaces in paths\n    # for the config arg, so we rely on relative here\n    # https://github.com/realm/SwiftLint/issues/3471\n    \"${SRCROOT}/Pods/SwiftLint/swiftlint\" \\\n       --config \".swiftlint.yml\" \\\n       --quiet \\\n       \"${SRCROOT}\"\nfi\n";
-		};
-		11A67358268D9E7B00D1AFD4 /* Fix Xcode 12.5+ Dependency Issues */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Fix Xcode 12.5+ Dependency Issues";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "exec $PROJECT_DIR/Configuration/Scripts/fix_xcode_12.5_target_platform_issues.sh\n";
-			showEnvVarsInLog = 0;
 		};
 		11FE64BC268D984D00AC4367 /* Fix Xcode 12.5+ Dependency Issues */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7922,11 +7824,6 @@
 			target = D03D891620E0A85200D4F28D /* Shared-iOS */;
 			targetProxy = 1171507D24DFCE0D0065E874 /* PBXContainerItemProxy */;
 		};
-		119A172724D74DA800D1B66D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6CC5D8D2159D10E00833E5D /* WatchExtension-Watch */;
-			targetProxy = 119A172624D74DA800D1B66D /* PBXContainerItemProxy */;
-		};
 		11A31C93252128B900D50A78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = maccatalyst;
@@ -7990,12 +7887,6 @@
 			isa = PBXTargetDependency;
 			target = B6AAD7A01D827DD40090B220 /* Extensions-NotificationService */;
 			targetProxy = B6AAD7A61D827DD40090B220 /* PBXContainerItemProxy */;
-		};
-		B6CC5D9D2159D10F00833E5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = B6CC5D812159D10D00833E5D /* WatchApp */;
-			targetProxy = B6CC5D9C2159D10F00833E5D /* PBXContainerItemProxy */;
 		};
 		D03D892B20E0A85300D4F28D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8889,30 +8780,6 @@
 			};
 			name = Beta;
 		};
-		B637243821697585006B102A /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24TK64QGZT;
-				IBSC_MODULE = WatchExtension_Watch;
-				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yildiz.MySmartHomes.beta-nc.watchkitapp";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				PROVISIONING_SUFFIX = .watchkitapp;
-				SDKROOT = watchos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Beta;
-		};
 		B637243921697585006B102A /* Beta */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E00CA53EFBB621A8470C22A /* Pods-watchOS-WatchExtension-Watch.beta.xcconfig */;
@@ -9285,52 +9152,6 @@
 			};
 			name = Release;
 		};
-		B6CC5D9F2159D10F00833E5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 24TK64QGZT;
-				IBSC_MODULE = WatchExtension_Watch;
-				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yildiz.MySmartHomes.dev.watchkitapp;
-				PROVISIONING_SUFFIX = .watchkitapp;
-				SDKROOT = watchos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Debug;
-		};
-		B6CC5DA02159D10F00833E5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24TK64QGZT;
-				IBSC_MODULE = WatchExtension_Watch;
-				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yildiz.MySmartHomes.watchkitapp;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				PROVISIONING_SUFFIX = .watchkitapp;
-				SDKROOT = watchos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Release;
-		};
 		B6CC5DA12159D10F00833E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C5C1EC99DF5FCB63422D279 /* Pods-watchOS-WatchExtension-Watch.debug.xcconfig */;
@@ -9617,16 +9438,6 @@
 				B6CC5DA12159D10F00833E5D /* Debug */,
 				B6CC5DA22159D10F00833E5D /* Release */,
 				B637243921697585006B102A /* Beta */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6CC5DA52159D10F00833E5D /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6CC5D9F2159D10F00833E5D /* Debug */,
-				B6CC5DA02159D10F00833E5D /* Release */,
-				B637243821697585006B102A /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
