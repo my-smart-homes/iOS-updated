@@ -58,7 +58,7 @@ public class MatterWrapper {
         lastCommissionServerIdentifier = server.identifier
 
         let request = MatterAddDeviceRequest(
-            topology: .init(ecosystemName: "Home Assistant", homes: []),
+            topology: .init(ecosystemName: "MySmartHomes", homes: []),
             shouldScanNetworks: true
         )
 

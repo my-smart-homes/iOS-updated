@@ -92,7 +92,7 @@
 "component::humidifier::entity_component::_::state_attributes::action::state::idle" = "Бездействие";
 "component::humidifier::entity_component::_::state_attributes::action::state::off" = "Выключено";
 "component::humidifier::entity_component::_::state_attributes::mode::state::home" = "Дома";
-"component::improv_ble::config::abort::already_configured" = "Это устройство уже добавлено в Home Assistant";
+"component::improv_ble::config::abort::already_configured" = "Это устройство уже добавлено в MySmartHomes";
 "component::improv_ble::config::abort::cannot_connect" = "Не удалось подключиться";
 "component::improv_ble::config::abort::characteristic_missing" = "Устройство либо уже подключено к Wi-Fi, либо больше не может подключиться к Wi-Fi. Если вы хотите подключить его к другой сети, сначала попробуйте выполнить сброс настроек к заводским.";
 "component::improv_ble::config::abort::no_devices_found" = "Устройства не найдены в сети";

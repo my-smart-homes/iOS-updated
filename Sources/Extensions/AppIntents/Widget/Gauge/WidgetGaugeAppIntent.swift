@@ -9,7 +9,7 @@ struct WidgetGaugeAppIntent: WidgetConfigurationIntent {
     static let description = IntentDescription(
         .init(
             "widgets.gauge.description_with_warning",
-            defaultValue: "Display numeric states from Home Assistant in a gauge, ATTENTION: User needs to be admin to use this feature"
+            defaultValue: "Display numeric states from MySmartHomes in a gauge, ATTENTION: User needs to be admin to use this feature"
         )
     )
 

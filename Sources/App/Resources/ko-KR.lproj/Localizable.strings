@@ -10,9 +10,9 @@
 "about.help_localize.title" = "앱 현지화를 도와주세요!";
 "about.home_assistant_on_facebook.title" = "Facebook";
 "about.home_assistant_on_twitter.title" = "Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "당신의 집을 깨워라";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "리뷰를 남겨주세요";
 "about.title" = "정보";
 "about.website.title" = "웹사이트";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "추가하기";
 "alert.confirmation.delete_entities.message" = "이렇게 하면 데이터베이스에서 구성요소가 삭제되고 앱을 처음부터 다시 열 때만 다시 로드됩니다.";
 "alert.confirmation.generic.title" = "확실한가요?";
-"alerts.action_automation_editor.unavailable.body" = "동작에 대한 자동화를 자동으로 생성하려면 Home Assistant를 버전 2024.2 이상으로 업데이트하십시오.";
-"alerts.action_automation_editor.unavailable.title" = "Home Assistant를 업데이트해주세요";
+"alerts.action_automation_editor.unavailable.body" = "동작에 대한 자동화를 자동으로 생성하려면 MySmartHomes를 버전 2024.2 이상으로 업데이트하십시오.";
+"alerts.action_automation_editor.unavailable.title" = "MySmartHomes를 업데이트해주세요";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "서버에서 자격 증명을 거부했으며 계속하려면 다시 로그인해야 합니다.";
 "alerts.auth_required.title" = "계속하려면 로그인해야 합니다.";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "설명";
 "connection.error.details.label.domain" = "도메인";
 "connection.error.details.title" = "연결 오류";
-"connection.error.failed_connect.cloud.title" = "Home Assistant Cloud 구독이 활성화되어 있고 서버에 연결되어 있는지 확인하세요. [Nabu Casa](https://account.nabucasa.com)에서 확인할 수 있습니다.";
-"connection.error.failed_connect.cloud_inactive.title" = "앱에서 Home Assistant Cloud 사용을 비활성화했으며, 원격 액세스에 필요한 경우 컴패니언 앱 설정을 열고 활성화하십시오.";
+"connection.error.failed_connect.cloud.title" = "MySmartHomes Cloud 구독이 활성화되어 있고 서버에 연결되어 있는지 확인하세요. [Nabu Casa](https://account.nabucasa.com)에서 확인할 수 있습니다.";
+"connection.error.failed_connect.cloud_inactive.title" = "앱에서 MySmartHomes Cloud 사용을 비활성화했으며, 원격 액세스에 필요한 경우 컴패니언 앱 설정을 열고 활성화하십시오.";
 "connection.error.failed_connect.subtitle" = "연결 상태를 확인한 후 다시 시도하세요. 집에 없는 경우 원격 액세스를 구성했는지 확인하십시오.";
-"connection.error.failed_connect.title" = "Home Assistant에 연결할 수 없습니다.";
+"connection.error.failed_connect.title" = "MySmartHomes에 연결할 수 없습니다.";
 "connection.error.failed_connect.url" = "앱이 현재 연결 중입니다.";
 "connection.error.generic_title" = "이런! 연결할 수 없는 것 같습니다.";
-"connection.permission.internal_url.body1" = "로컬에서 안전하게 Home Assistant에 액세스하려면 위치 권한('항상')을 부여해야 합니다.";
-"connection.permission.internal_url.body2" = "이 권한을 통해 Home Assistant는 사용자가 연결된 무선 네트워크를 감지하고 로컬 연결을 설정할 수 있습니다.";
-"connection.permission.internal_url.body3" = "Home Assistant와 위치가 공유되는 경우 항상 제어할 수 있습니다. 이러한 설정은 동반 앱 설정 화면에서 변경할 수 있습니다.";
+"connection.permission.internal_url.body1" = "로컬에서 안전하게 MySmartHomes에 액세스하려면 위치 권한('항상')을 부여해야 합니다.";
+"connection.permission.internal_url.body2" = "이 권한을 통해 MySmartHomes는 사용자가 연결된 무선 네트워크를 감지하고 로컬 연결을 설정할 수 있습니다.";
+"connection.permission.internal_url.body3" = "MySmartHomes와 위치가 공유되는 경우 항상 제어할 수 있습니다. 이러한 설정은 동반 앱 설정 화면에서 변경할 수 있습니다.";
 "connection.permission.internal_url.button_configure" = "로컬 액세스 구성";
 "connection.permission.internal_url.button_ignore" = "내가 무엇을 하고 있는지 알고 있습니다. 권한 액세스 없이 로컬 연결을 허용합니다.";
 "connection.permission.internal_url.footer" = "여전히 로컬 URL을 사용하고 싶지만 위치 권한을 제공하지 않으려면 아래 버튼을 탭할 수 있지만 보안 위험에 유의하세요.";
@@ -224,7 +224,7 @@
 "error_label" = "오류";
 "extensions.map.location.new" = "새 위치";
 "extensions.map.location.original" = "원래 위치";
-"extensions.map.payload_missing_homeassistant.message" = "페이로드에 Home Assistant 사전이 포함되어 있지 않습니다!";
+"extensions.map.payload_missing_homeassistant.message" = "페이로드에 MySmartHomes 사전이 포함되어 있지 않습니다!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "위도를 찾을 수 없거나 문자열로 변환할 수 없습니다!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "경도를 찾을 수 없거나 문자열로 변환할 수 없습니다!";
 "extensions.notification_content.error.no_entity_id" = "페이로드에서 entity_id 찾을 수 없습니다!";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 오른쪽으로 스와이프";
 "gestures.3_fingers_swipe_up.title" = "3 👆 위로 스와이프";
 "gestures.footer.title" = "프론트엔드에서 사용할 제스처를 사용자 지정합니다.";
-"gestures.screen.body" = "아래 제스처는 Home Assistant 기본 UI를 사용할 때마다 적용됩니다.";
+"gestures.screen.body" = "아래 제스처는 MySmartHomes 기본 UI를 사용할 때마다 적용됩니다.";
 "gestures.screen.title" = "제스처";
 "gestures.shake.title" = "흔들기";
 "gestures.swipe_left.title" = "왼쪽으로 스와이프할 때";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "데이터베이스(GRDB)에 액세스하지 못함, 오류: %@";
 "grdb.config.migration_error.failed_to_save" = "새 구성을 저장하지 못했습니다. 오류: %@";
 "ha_api.api_error.cant_build_url" = "API URL을 빌드할 수 없습니다.";
-"ha_api.api_error.invalid_response" = "Home Assistant로부터 잘못된 응답을 받았습니다.";
+"ha_api.api_error.invalid_response" = "MySmartHomes로부터 잘못된 응답을 받았습니다.";
 "ha_api.api_error.manager_not_available" = "HA API Manager를 사용할 수 없습니다.";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app 구성 요소가 로드되지 않았습니다. 구성에 추가하고 Home Assistant를 다시 시작한 후 다시 시도하십시오.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant 버전(%@)이 너무 오래되었으므로 앱을 사용하려면 버전 %@ 이상으로 업그레이드해야 합니다.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app 구성 요소가 로드되지 않았습니다. 구성에 추가하고 MySmartHomes를 다시 시작한 후 다시 시도하십시오.";
+"ha_api.api_error.must_upgrade_home_assistant" = "MySmartHomes 버전(%@)이 너무 오래되었으므로 앱을 사용하려면 버전 %@ 이상으로 업그레이드해야 합니다.";
 "ha_api.api_error.no_available_api" = "API를 사용할 수 없는 경우 내부 URL 또는 외부 URL을 사용할 수 있는지 다시 확인하세요.";
 "ha_api.api_error.not_configured" = "HA API가 구성되지 않음";
 "ha_api.api_error.unacceptable_status_code" = "허용되지 않는 상태 코드 %1$li.";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "아이콘 색상";
 "magic_item.icon_name.title" = "아이콘 이름";
 "magic_item.item_type.action.list.title" = "iOS 동작";
-"magic_item.item_type.action.list.warning.title" = "앞으로 iOS 동작 지원이 중단될 예정이므로 대신 Home Assistant 스크립트나 장면을 사용하시기 바랍니다.";
+"magic_item.item_type.action.list.warning.title" = "앞으로 iOS 동작 지원이 중단될 예정이므로 대신 MySmartHomes 스크립트나 장면을 사용하시기 바랍니다.";
 "magic_item.item_type.app.list.title" = "앱";
 "magic_item.item_type.entity.list.title" = "구성요소";
 "magic_item.item_type.scene.list.title" = "장면";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "태그 읽기";
 "nfc.list.description" = "앱에서 작성한 NFC 태그에 디바이스를 가까이 가져가면 알림이 표시됩니다. 알림을 활성화하면 앱이 실행되고 이벤트가 실행됩니다.\
 \
-태그는 Home Assistant가 설치된 모든 기기에서 작동하며, 태그를 읽을 수 있는 하드웨어가 지원됩니다.";
+태그는 MySmartHomes가 설치된 모든 기기에서 작동하며, 태그를 읽을 수 있는 하드웨어가 지원됩니다.";
 "nfc.list.learn_more" = "더 알아보기";
 "nfc.list.read_tag" = "태그 읽기";
 "nfc.list.title" = "NFC 태그";
 "nfc.list.write_tag" = "태그 작성하기";
 "nfc.not_available" = "이 기기에서 NFC를 사용할 수 없습니다";
 "nfc.read.error.generic_failure" = "태그를 읽지 못했습니다.";
-"nfc.read.error.not_home_assistant" = "NFC 태그가 Home Assistant 태그가 아닙니다.";
+"nfc.read.error.not_home_assistant" = "NFC 태그가 MySmartHomes 태그가 아닙니다.";
 "nfc.read.error.tag_invalid" = "NFC 태그가 잘못되었습니다.";
 "nfc.read.start_message" = "%@을(를) NFC 태그 근처에 두십시오.";
 "nfc.tag_read" = "NFC 태그 읽기";
@@ -385,7 +385,7 @@
 "notification_service.parser.camera.invalid_entity" = "제공된 entity_id가 잘못되었습니다.";
 "notification_service.parser.url.invalid_url" = "제공된 URL이 잘못되었습니다.";
 "notification_service.parser.url.no_url" = "제공된 URL 없음";
-"notifications_configurator.action.rows.authentication_required.footer" = "사용자가 이 옵션으로 동작을 선택하면 시스템은 사용자에게 기기 잠금을 해제하라는 메시지를 표시합니다. 잠금 해제 후 Home Assistant는 선택한 동작에 대한 알림을 받습니다.";
+"notifications_configurator.action.rows.authentication_required.footer" = "사용자가 이 옵션으로 동작을 선택하면 시스템은 사용자에게 기기 잠금을 해제하라는 메시지를 표시합니다. 잠금 해제 후 MySmartHomes는 선택한 동작에 대한 알림을 받습니다.";
 "notifications_configurator.action.rows.authentication_required.title" = "인증 필요";
 "notifications_configurator.action.rows.destructive.footer" = "활성화하면 동작 버튼이 파괴적인 작업을 수행함을 나타내기 위해 특수 강조 표시로 표시됩니다.";
 "notifications_configurator.action.rows.destructive.title" = "파괴적인";
@@ -435,7 +435,7 @@
 "onboarding.manual_setup.connect" = "연결";
 "onboarding.manual_setup.couldnt_make_url.message" = "'%@'은 유효한 URL이 아닙니다.";
 "onboarding.manual_setup.couldnt_make_url.title" = "URL을 생성할 수 없습니다.";
-"onboarding.manual_setup.description" = "Home Assistant 서버의 URL입니다. 프로토콜과 포트가 포함되어 있는지 확인하십시오.";
+"onboarding.manual_setup.description" = "MySmartHomes 서버의 URL입니다. 프로토콜과 포트가 포함되어 있는지 확인하십시오.";
 "onboarding.manual_setup.no_scheme.message" = "http:// 또는 https:// 를 사용하여 연결을 시도해야 합니까?";
 "onboarding.manual_setup.no_scheme.title" = "스킴 없이 입력한 URL";
 "onboarding.manual_setup.title" = "URL 입력하기";
@@ -444,7 +444,7 @@
 "onboarding.permissions.change_later_note" = "나중에 설정에서 이 권한을 변경할 수 있습니다.";
 "onboarding.permissions.focus.bullet.automations" = "집중 모드 기반 자동화";
 "onboarding.permissions.focus.bullet.instant" = "상태 변경 시 즉시 업데이트";
-"onboarding.permissions.focus.description" = "집중 모드인지 여부를 Home Assistant로 전송하도록 허용";
+"onboarding.permissions.focus.description" = "집중 모드인지 여부를 MySmartHomes로 전송하도록 허용";
 "onboarding.permissions.focus.grant_description" = "방해 금지라고도 하는 집중 모드 상태에 대한 센서를 만들 수 있도록 집중 모드 권한을 허용합니다.";
 "onboarding.permissions.focus.title" = "집중 모드";
 "onboarding.permissions.location.bullet.automations" = "존재 기반 자동화";
@@ -456,13 +456,13 @@
 "onboarding.permissions.motion.bullet.activity" = "현재 활동 유형 센서";
 "onboarding.permissions.motion.bullet.distance" = "이동 거리 센서";
 "onboarding.permissions.motion.bullet.steps" = "걸음 수 센서";
-"onboarding.permissions.motion.description" = "움직임 활동 및 만보계 데이터를 Home Assistant로 전송하도록 허용";
+"onboarding.permissions.motion.description" = "움직임 활동 및 만보계 데이터를 MySmartHomes로 전송하도록 허용";
 "onboarding.permissions.motion.grant_description" = "움직임 활동 및 만보계 데이터에 대한 센서를 만들 수 있도록 움직임 활동 권한을 허용합니다.";
 "onboarding.permissions.motion.title" = "움직임 활동 및 만보계";
 "onboarding.permissions.notification.bullet.alert" = "알림 받기";
 "onboarding.permissions.notification.bullet.badge" = "앱 아이콘 뱃지 업데이트";
 "onboarding.permissions.notification.bullet.commands" = "기기에 명령 보내기";
-"onboarding.permissions.notification.description" = "Home Assistant에서 푸시 알림을 보내는것을 허용합니다";
+"onboarding.permissions.notification.description" = "MySmartHomes에서 푸시 알림을 보내는것을 허용합니다";
 "onboarding.permissions.notification.grant_description" = "기기에 대한 알림 서비스를 생성하려면 알림 권한을 허용하십시오.";
 "onboarding.permissions.notification.title" = "알림";
 "onboarding.scanning.discovered_announcement" = "발견됨: %@";
@@ -471,12 +471,12 @@
 "onboarding.scanning.title" = "서버를 찾는 중";
 "onboarding.welcome.description" = "이 앱은 Home Assitant 서버에 연결되어 사용자와 휴대전화에 대한 데이터를 통합할 수 있습니다.\
 \
-Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료 오픈 소스 홈 자동화 소프트웨어입니다.";
+MySmartHomes는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료 오픈 소스 홈 자동화 소프트웨어입니다.";
 "onboarding.welcome.learn_more" = "더 알아보기";
-"onboarding.welcome.title" = "Home Assistant %@에 오신것을 환영합니다!";
+"onboarding.welcome.title" = "MySmartHomes %@에 오신것을 환영합니다!";
 "open_label" = "열기";
 "permission.screen.bluetooth.secondary_button" = "건너뛰기";
-"permission.screen.bluetooth.subtitle" = "Home Assistant 앱은 이 기기의 Bluetooth를 사용하여 기기를 찾을 수 있습니다. Home Assistant 앱에 Bluetooth 액세스를 허용하세요.";
+"permission.screen.bluetooth.subtitle" = "MySmartHomes 앱은 이 기기의 Bluetooth를 사용하여 기기를 찾을 수 있습니다. MySmartHomes 앱에 Bluetooth 액세스를 허용하세요.";
 "permission.screen.bluetooth.title" = "기기 찾기";
 "preview_output" = "미리보기 출력";
 "reload_label" = "새로고침";
@@ -504,7 +504,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "외부 URL";
 "settings.connection_section.header" = "연결";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "예: http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "설정이 필요합니다";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "내부 URL을 사용하려면 Wifi 네트워크 이름(SSID)이나 하드웨어 주소를 지정해야 합니다. 그렇지 않으면 앱은 항상 외부 URL을 기본값으로 사용합니다.";
@@ -518,7 +518,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.connection_section.internal_url_ssids.footer" = "나열된 SSID에 연결할 때 내부 URL이 사용됩니다.";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "내부 SSID에 있을 때 푸시 알림을 위해 Home Assistant 서버에 직접 연결합니다.";
+"settings.connection_section.local_push_description" = "내부 SSID에 있을 때 푸시 알림을 위해 MySmartHomes 서버에 직접 연결합니다.";
 "settings.connection_section.location_send_type.setting.exact" = "정확한";
 "settings.connection_section.location_send_type.setting.never" = "절대 안됨";
 "settings.connection_section.location_send_type.setting.zone_only" = "영역 이름만";
@@ -548,7 +548,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.debugging.header.title" = "디버그";
 "settings.debugging.shake_disclaimer.title" = "이제 앱을 흔들면 디버그 기능에 액세스할 수 있습니다.";
 "settings.debugging.shake_disclaimer_optional.title" = "앱을 흔들어 디버그 열기";
-"settings.debugging.thread.footer" = "Apple Keychain 내부에 어떤 Thread 자격 증명이 있는지 확인하고, Home Assistant로 가져오거나 Keychain에서 삭제할 수도 있습니다.";
+"settings.debugging.thread.footer" = "Apple Keychain 내부에 어떤 Thread 자격 증명이 있는지 확인하고, MySmartHomes로 가져오거나 Keychain에서 삭제할 수도 있습니다.";
 "settings.debugging.title" = "디버깅";
 "settings.details_section.location_settings_row.title" = "위치";
 "settings.details_section.notification_settings_row.title" = "알림";
@@ -582,7 +582,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.location_history.title" = "위치 기록";
 "settings.navigation_bar.about_button.title" = "정보";
 "settings.navigation_bar.title" = "설정";
-"settings.reset_section.reset_alert.message" = "설정이 초기화되고 이 기기가 푸시 알림에서 등록 취소되고 Home Assistant 구성에서 제거됩니다.";
+"settings.reset_section.reset_alert.message" = "설정이 초기화되고 이 기기가 푸시 알림에서 등록 취소되고 MySmartHomes 구성에서 제거됩니다.";
 "settings.reset_section.reset_alert.progress_message" = "재설정 중…";
 "settings.reset_section.reset_alert.title" = "초기화";
 "settings.reset_section.reset_app.title" = "앱 재설정(서버 및 데이터 제거)";
@@ -591,7 +591,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.server_select.page_title" = "서버";
 "settings.server_select.title" = "서버";
 "settings.status_section.header" = "상태";
-"settings.status_section.location_name_row.placeholder" = "내 Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "내 MySmartHomes";
 "settings.status_section.location_name_row.title" = "이름";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "버전";
@@ -636,7 +636,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings_details.general.app_icon.enum.electric_violet" = "일렉트릭 바이올렛";
 "settings_details.general.app_icon.enum.fire_orange" = "파이어 오렌지";
 "settings_details.general.app_icon.enum.green" = "초록색";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Blue";
 "settings_details.general.app_icon.enum.old_beta" = "이전 베타";
 "settings_details.general.app_icon.enum.old_dev" = "이전 개발자";
 "settings_details.general.app_icon.enum.old_release" = "이전 릴리스";
@@ -774,7 +774,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings_details.notifications.title" = "알림";
 "settings_details.privacy.alerts.description" = "보안 취약점과 같은 중요한 경고를 확인할 수 있습니다.";
 "settings_details.privacy.alerts.title" = "경고";
-"settings_details.privacy.analytics.generic_description" = "기기에 대한 기본 정보 및 앱과의 상호 작용을 수집할 수 있습니다. Home Assistant URL 및 토큰을 포함하여 사용자 식별 데이터는 공유되지 않습니다. 이 설정에 대한 변경 내용을 적용하려면 앱을 다시 시작해야 합니다.";
+"settings_details.privacy.analytics.generic_description" = "기기에 대한 기본 정보 및 앱과의 상호 작용을 수집할 수 있습니다. MySmartHomes URL 및 토큰을 포함하여 사용자 식별 데이터는 공유되지 않습니다. 이 설정에 대한 변경 내용을 적용하려면 앱을 다시 시작해야 합니다.";
 "settings_details.privacy.analytics.generic_title" = "분석";
 "settings_details.privacy.crash_reporting.description" = "앱의 충돌 및 기타 오류를 더 심층적으로 추적할 수 있으므로 수정 사항을 더 빠르게 게시할 수 있습니다. 기본 기기 정보 외에는 사용자 식별 정보가 전송되지 않습니다. 이 설정에 대한 변경 내용을 적용하려면 앱을 다시 시작해야 합니다.";
 "settings_details.privacy.crash_reporting.sentry" = "이 기능은 현재 Sentry를 보고 대상으로 사용합니다.";
@@ -818,7 +818,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "thread.credentials.screen_title" = "스레드 자격 증명";
 "thread.credentials.share_credentials.no_credentials_message" = "Apple Home의 홈 소유자인 iCloud 계정으로 로그인했는지 확인하세요.";
 "thread.credentials.share_credentials.no_credentials_title" = "공유할 사용자 인증 정보가 없습니다.";
-"thread.credentials.share_credentials_button_title" = "Home Assistant와 자격 증명 공유";
+"thread.credentials.share_credentials_button_title" = "MySmartHomes와 자격 증명 공유";
 "thread.extended_pan_id.title" = "확장된 PAN ID";
 "thread.management.title" = "스레드 자격 증명";
 "thread.network_key.title" = "네트워크 키";
@@ -830,7 +830,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "thread.store_in_keychain.error.message" = "키체인에 스레드 자격 증명을 저장하지 못했습니다. 오류: %@";
 "thread.store_in_keychain.error.title" = "작업 실패";
 "thread.transter_to_apple.title" = "Apple 키체인으로 전송";
-"thread.transter_to_homeassistant.title" = "Home Assistant로 전송";
+"thread.transter_to_homeassistant.title" = "MySmartHomes로 전송";
 "token_error.connection_failed" = "연결에 실패했습니다.";
 "token_error.expired" = "토큰이 만료되었습니다.";
 "token_error.token_unavailable" = "토큰을 사용할 수 없습니다.";
@@ -1090,7 +1090,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "widgets.action.name.navigate" = "이동하기";
 "widgets.action.name.nothing" = "아무것도 안 함";
 "widgets.action.name.run_script" = "스크립트 실행";
-"widgets.actions.description" = "Home Assistant 동작을 수행합니다.";
+"widgets.actions.description" = "MySmartHomes 동작을 수행합니다.";
 "widgets.actions.not_configured" = "구성된 동작 없음";
 "widgets.actions.parameters.action" = "동작";
 "widgets.actions.title" = "동작";
@@ -1099,7 +1099,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "widgets.assist.title" = "어시스트";
 "widgets.assist.unknown_configuration" = "설정";
 "widgets.button.reload_timeline" = "모든 위젯 새로고침";
-"widgets.controls.assist.description" = "Home Assistant 앱에서 Assist 열기";
+"widgets.controls.assist.description" = "MySmartHomes 앱에서 Assist 열기";
 "widgets.controls.assist.pipeline.placeholder" = "파이프라인을 선택하세요";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.cover.description" = "커버 토글";
@@ -1130,8 +1130,8 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "widgets.custom.show_update_time.title" = "마지막 업데이트:";
 "widgets.custom.subtitle" = "나만의 스타일로 위젯 만들기";
 "widgets.custom.title" = "사용자 정의 위젯";
-"widgets.details.description" = "Home Assistant에서 가져온 상태를 텍스트로 표시합니다";
-"widgets.details.description_with_warning" = "Home Assistant에서 텍스트로 상태를 표시합니다. 주의: 사용자는 템플릿 액세스를 위해 관리자여야 합니다.";
+"widgets.details.description" = "MySmartHomes에서 가져온 상태를 텍스트로 표시합니다";
+"widgets.details.description_with_warning" = "MySmartHomes에서 텍스트로 상태를 표시합니다. 주의: 사용자는 템플릿 액세스를 위해 관리자여야 합니다.";
 "widgets.details.parameters.action" = "동작";
 "widgets.details.parameters.details_template" = "세부정보 텍스트 템플릿(직사각형군에만 해당)";
 "widgets.details.parameters.lower_template" = "하단 텍스트 템플릿";
@@ -1141,7 +1141,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "widgets.details.title" = "세부 정보";
 "widgets.entity_state.placeholder" = "구성요소 상태";
 "widgets.gauge.description" = "홈어시스턴트의 숫자 상태를 게이지에 표시";
-"widgets.gauge.description_with_warning" = "Home Assistant에서 게이지에 숫자 상태를 표시합니다. 주의: 사용자는 템플릿 액세스를 위해 관리자여야 합니다.";
+"widgets.gauge.description_with_warning" = "MySmartHomes에서 게이지에 숫자 상태를 표시합니다. 주의: 사용자는 템플릿 액세스를 위해 관리자여야 합니다.";
 "widgets.gauge.parameters.action" = "동작";
 "widgets.gauge.parameters.gauge_type" = "게이지 유형";
 "widgets.gauge.parameters.gauge_type.capacity" = "용량";
@@ -1154,7 +1154,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "widgets.gauge.parameters.value_template" = "값 템플릿(0-1)";
 "widgets.gauge.title" = "게이지";
 "widgets.lights.description" = "조명 켜기/끄기";
-"widgets.open_page.description" = "Home Assistant에서 프론트엔드 페이지를 엽니다.";
+"widgets.open_page.description" = "MySmartHomes에서 프론트엔드 페이지를 엽니다.";
 "widgets.open_page.not_configured" = "해당 페이지가 없습니다";
 "widgets.open_page.title" = "페이지 열기";
 "widgets.preview.custom.description" = "앱 내에서 나만의 위젯을 만든 다음 여기에 표시하세요.";

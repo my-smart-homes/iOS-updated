@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Suivi des bugs sur GitHub";
 "about.help_localize.title" = "Aidez nous à traduire l'application !";
-"about.home_assistant_on_facebook.title" = "Home Assistant sur Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant sur Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "MySmartHomes sur Facebook";
+"about.home_assistant_on_twitter.title" = "MySmartHomes sur Twitter";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "Réveillez votre maison";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Laisser un commentaire";
 "about.title" = "À propos";
 "about.website.title" = "Site web";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "Ajouter";
 "alert.confirmation.delete_entities.message" = "This will clean your entities from database and it will only reload the next time you open the app from zero.";
 "alert.confirmation.generic.title" = "Are you sure?";
-"alerts.action_automation_editor.unavailable.body" = "Pour créer automatiquement une automatisation pour une Action, veuillez mettre à jour votre Home Assistant vers la version 2024.2 à minima";
-"alerts.action_automation_editor.unavailable.title" = "Veuillez mettre à jour Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Pour créer automatiquement une automatisation pour une Action, veuillez mettre à jour votre MySmartHomes vers la version 2024.2 à minima";
+"alerts.action_automation_editor.unavailable.title" = "Veuillez mettre à jour MySmartHomes";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Le serveur a rejeté vos informations d'identification et vous devez vous reconnecter pour continuer.";
 "alerts.auth_required.title" = "Vous devez vous connecter pour continuer";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Description";
 "connection.error.details.label.domain" = "Domain";
 "connection.error.details.title" = "Connection error";
-"connection.error.failed_connect.cloud.title" = "Make sure your Home Assistant Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
-"connection.error.failed_connect.cloud_inactive.title" = "You have disabled Home Assistant Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
+"connection.error.failed_connect.cloud.title" = "Make sure your MySmartHomes Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
+"connection.error.failed_connect.cloud_inactive.title" = "You have disabled MySmartHomes Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
 "connection.error.failed_connect.subtitle" = "Check your connection and try again. If you are not at home make sure you have configured remote access.";
-"connection.error.failed_connect.title" = "We couldn't connect to Home Assistant";
+"connection.error.failed_connect.title" = "We couldn't connect to MySmartHomes";
 "connection.error.failed_connect.url" = "The app is currently connecting to";
 "connection.error.generic_title" = "Uh oh! Looks like we are unable to establish a connection.";
-"connection.permission.internal_url.body1" = "To access Home Assistant locally in a secure way, you need to grant the location permission ('Always').";
-"connection.permission.internal_url.body2" = "This permission allows Home Assistant to detect the wireless network that you're connected to and establish a local connection.";
-"connection.permission.internal_url.body3" = "You are always in control if your location is shared with Home Assistant. You can change these settings in the companion app setting screen.";
+"connection.permission.internal_url.body1" = "To access MySmartHomes locally in a secure way, you need to grant the location permission ('Always').";
+"connection.permission.internal_url.body2" = "This permission allows MySmartHomes to detect the wireless network that you're connected to and establish a local connection.";
+"connection.permission.internal_url.body3" = "You are always in control if your location is shared with MySmartHomes. You can change these settings in the companion app setting screen.";
 "connection.permission.internal_url.button_configure" = "Configure local access";
 "connection.permission.internal_url.button_ignore" = "I know what I am doing. Allow local connections without permission access.";
 "connection.permission.internal_url.footer" = "If you still want to use the local URL and don't want to provide location permission, you can tap the button below, but please, be aware of the security risks.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 swipe right";
 "gestures.3_fingers_swipe_up.title" = "3 👆 swipe up";
 "gestures.footer.title" = "Customize gestures to be used on the frontend.";
-"gestures.screen.body" = "Gestures below will be applied whenever you are using Home Assistant main UI.";
+"gestures.screen.body" = "Gestures below will be applied whenever you are using MySmartHomes main UI.";
 "gestures.screen.title" = "Gestes";
 "gestures.shake.title" = "Shake";
 "gestures.swipe_left.title" = "Swipe Left";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Failed to access database (GRDB), error: %@";
 "grdb.config.migration_error.failed_to_save" = "Failed to save new config, error: %@";
 "ha_api.api_error.cant_build_url" = "Impossible de construire l'URL de l'API";
-"ha_api.api_error.invalid_response" = "Réponse invalide reçue de Home Assistant";
+"ha_api.api_error.invalid_response" = "Réponse invalide reçue de MySmartHomes";
 "ha_api.api_error.manager_not_available" = "HA API Manager n'est pas disponible";
 "ha_api.api_error.mobile_app_component_not_loaded" = "Le composant mobile_app n'est pas chargé ou n'a pas été détecté";
-"ha_api.api_error.must_upgrade_home_assistant" = "Votre version de Home Assistant ( %@ ) est trop ancienne, vous devez effectuer une mise à niveau vers la version minimum %@ pour utiliser l'application.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Votre version de MySmartHomes ( %@ ) est trop ancienne, vous devez effectuer une mise à niveau vers la version minimum %@ pour utiliser l'application.";
 "ha_api.api_error.no_available_api" = "Aucune API disponible, assurez-vous que l'URL interne ou l'URL externe soit accessible.";
 "ha_api.api_error.not_configured" = "L'API HA n'est pas configurée";
 "ha_api.api_error.unacceptable_status_code" = "Code d'état non recevable %1$li .";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Couleur de l'icône";
 "magic_item.icon_name.title" = "Nom de l'icône";
 "magic_item.item_type.action.list.title" = "iOS Actions";
-"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using Home Assistant scripts or scenes instead.";
+"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using MySmartHomes scripts or scenes instead.";
 "magic_item.item_type.app.list.title" = "App";
 "magic_item.item_type.entity.list.title" = "Entité";
 "magic_item.item_type.scene.list.title" = "Scènes";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Tag lu";
 "nfc.list.description" = "Les balises NFC écrites par l'application afficheront une notification lorsque vous rapprochez votre appareil. L'activation de la notification lancera l'application et déclenchera un événement. \
 \
-Les balises fonctionneront sur tout appareil sur lequel Home Assistant est installé et qui dispose d'un support matériel pour les lire.";
+Les balises fonctionneront sur tout appareil sur lequel MySmartHomes est installé et qui dispose d'un support matériel pour les lire.";
 "nfc.list.learn_more" = "En savoir plus";
 "nfc.list.read_tag" = "Lire un tag";
 "nfc.list.title" = "Balises NFC";
 "nfc.list.write_tag" = "Écrire un tag";
 "nfc.not_available" = "Le NFC n'est pas disponible sur cet appareil";
 "nfc.read.error.generic_failure" = "Échec de lecture de la balise";
-"nfc.read.error.not_home_assistant" = "Le tag NFC n'est pas un tag Home Assistant";
+"nfc.read.error.not_home_assistant" = "Le tag NFC n'est pas un tag MySmartHomes";
 "nfc.read.error.tag_invalid" = "Le tag NFC n'est pas valide";
 "nfc.read.start_message" = "Tenez votre %@ près d’une balise NFC";
 "nfc.tag_read" = "Tag NFC lu";
@@ -385,7 +385,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "notification_service.parser.camera.invalid_entity" = "l'entity_id fourni n'était pas valide.";
 "notification_service.parser.url.invalid_url" = "L'URL indiquée n'était pas valide.";
 "notification_service.parser.url.no_url" = "Aucune URL n'a été fournie.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Lorsque l'utilisateur sélectionne une action avec cette option, le système l'invite à déverrouiller l'appareil. Après le déverrouillage, Home Assistant sera informé de l’action sélectionnée.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Lorsque l'utilisateur sélectionne une action avec cette option, le système l'invite à déverrouiller l'appareil. Après le déverrouillage, MySmartHomes sera informé de l’action sélectionnée.";
 "notifications_configurator.action.rows.authentication_required.title" = "Identification requise";
 "notifications_configurator.action.rows.destructive.footer" = "Lorsqu'il est activé, le bouton d'action est affiché avec une mise en surbrillance spéciale pour indiquer qu'il effectue une tâche destructive.";
 "notifications_configurator.action.rows.destructive.title" = "Destructeur";
@@ -435,7 +435,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.manual_setup.connect" = "Connecter";
 "onboarding.manual_setup.couldnt_make_url.message" = "La valeur '%@' n'était pas une URL valide.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Impossible de créer une URL";
-"onboarding.manual_setup.description" = "L'URL de votre serveur Home Assistant. Assurez-vous qu'il inclut le protocole et le port.";
+"onboarding.manual_setup.description" = "L'URL de votre serveur MySmartHomes. Assurez-vous qu'il inclut le protocole et le port.";
 "onboarding.manual_setup.no_scheme.message" = "Faut-il essayer de se connecter en utilisant http:// ou https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entrée sans schéma";
 "onboarding.manual_setup.title" = "Entrez l'URL";
@@ -444,7 +444,7 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.permissions.change_later_note" = "Vous pouvez modifier cette autorisation plus tard dans Paramètres";
 "onboarding.permissions.focus.bullet.automations" = "Automatisations liées à l’état de concentration";
 "onboarding.permissions.focus.bullet.instant" = "Mises à jour instantanées lorsque le statut change";
-"onboarding.permissions.focus.description" = "Permettre à Home Assistant de savoir si vous êtes en mode de concentration";
+"onboarding.permissions.focus.description" = "Permettre à MySmartHomes de savoir si vous êtes en mode de concentration";
 "onboarding.permissions.focus.grant_description" = "Acceptez l’autorisation de concentration afin de créer des capteurs rapportant votre état de concentration, également appelé « ne pas déranger ».";
 "onboarding.permissions.focus.title" = "Concentration";
 "onboarding.permissions.location.bullet.automations" = "Automatisations basées sur la présence";
@@ -456,27 +456,27 @@ Les balises fonctionneront sur tout appareil sur lequel Home Assistant est insta
 "onboarding.permissions.motion.bullet.activity" = "Capteur pour le type d'activité courante";
 "onboarding.permissions.motion.bullet.distance" = "Capteur de distance parcourue";
 "onboarding.permissions.motion.bullet.steps" = "Capteur pour le nombre de pas";
-"onboarding.permissions.motion.description" = "Autoriser l'envoi des données de l'activité de mouvement et du podomètre à Home Assistant";
+"onboarding.permissions.motion.description" = "Autoriser l'envoi des données de l'activité de mouvement et du podomètre à MySmartHomes";
 "onboarding.permissions.motion.grant_description" = "Autoriser l'autorisation de mouvement pour créer des capteurs pour les données de mouvement et de podomètre.";
 "onboarding.permissions.motion.title" = "Mouvement & Podomètre";
 "onboarding.permissions.notification.bullet.alert" = "Être alerté par les notifications";
 "onboarding.permissions.notification.bullet.badge" = "Mettre à jour le badge de l'icône de l'application";
 "onboarding.permissions.notification.bullet.commands" = "Envoyer des commandes à votre appareil";
-"onboarding.permissions.notification.description" = "Autoriser l'envoi de notifications push depuis votre Home Assistant";
+"onboarding.permissions.notification.description" = "Autoriser l'envoi de notifications push depuis votre MySmartHomes";
 "onboarding.permissions.notification.grant_description" = "Autorisez l'autorisation de notification pour créer un service de notification pour votre appareil.";
 "onboarding.permissions.notification.title" = "Notifications";
 "onboarding.scanning.discovered_announcement" = "Découvert %@";
 "onboarding.scanning.manual" = "Saisir l'adresse manuellement";
 "onboarding.scanning.manual_hint" = "Vous ne trouvez pas votre serveur?";
 "onboarding.scanning.title" = "Recherche de serveurs";
-"onboarding.welcome.description" = "Cette application se connecte à votre serveur Home Assistant et permet d'intégrer des données sur vous et votre téléphone. \
+"onboarding.welcome.description" = "Cette application se connecte à votre serveur MySmartHomes et permet d'intégrer des données sur vous et votre téléphone. \
 \
-Home Assistant est un logiciel de domotique gratuit et open source axé sur le contrôle local et la confidentialité.";
+MySmartHomes est un logiciel de domotique gratuit et open source axé sur le contrôle local et la confidentialité.";
 "onboarding.welcome.learn_more" = "Plus d'informations";
-"onboarding.welcome.title" = "Bienvenue dans Home Assistant %@ !";
+"onboarding.welcome.title" = "Bienvenue dans MySmartHomes %@ !";
 "open_label" = "Ouvert";
 "permission.screen.bluetooth.secondary_button" = "Skip";
-"permission.screen.bluetooth.subtitle" = "The Home Assistant app can find devices using Bluetooth of this device. Allow Bluetooth access for the Home Assistant app.";
+"permission.screen.bluetooth.subtitle" = "The MySmartHomes app can find devices using Bluetooth of this device. Allow Bluetooth access for the MySmartHomes app.";
 "permission.screen.bluetooth.title" = "Rechercher des appareils";
 "preview_output" = "Aperçu du résultat";
 "reload_label" = "Recharger";
@@ -504,7 +504,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "URL externe";
 "settings.connection_section.header" = "Connexion";
-"settings.connection_section.home_assistant_cloud.title" = "Cloud Home Assistant";
+"settings.connection_section.home_assistant_cloud.title" = "Cloud MySmartHomes";
 "settings.connection_section.internal_base_url.placeholder" = "exemple : http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Requires setup";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "Pour utiliser l'URL interne vous devez spécifier le nom de votre réseau Wifi (SSID) ou son adresse matérielle, autrement l'application utilisera toujours l'URL externe par défaut.";
@@ -518,7 +518,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.connection_section.internal_url_ssids.footer" = "L'URL interne sera utilisée lors de la connexion au SSID répertoriés";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MonNomDeReseauSympa";
-"settings.connection_section.local_push_description" = "Connectez-vous directement au serveur Home Assistant pour les notifications push lorsque vous utilisez des SSID internes.";
+"settings.connection_section.local_push_description" = "Connectez-vous directement au serveur MySmartHomes pour les notifications push lorsque vous utilisez des SSID internes.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Jamais";
 "settings.connection_section.location_send_type.setting.zone_only" = "Nom de zone uniquement";
@@ -548,7 +548,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.debugging.header.title" = "Debug";
 "settings.debugging.shake_disclaimer.title" = "Now when you shake the app you can access debug features.";
 "settings.debugging.shake_disclaimer_optional.title" = "Shake the App to open debug";
-"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in Home Assistant or delete from Keychain.";
+"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in MySmartHomes or delete from Keychain.";
 "settings.debugging.title" = "Débogage";
 "settings.details_section.location_settings_row.title" = "Paramètres d'emplacement";
 "settings.details_section.notification_settings_row.title" = "Notifications";
@@ -582,7 +582,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.location_history.title" = "Historique de localisation";
 "settings.navigation_bar.about_button.title" = "À propos";
 "settings.navigation_bar.title" = "Réglages";
-"settings.reset_section.reset_alert.message" = "Vos paramètres seront réinitialisés, cet appareil ne sera plus enregistré des notifications push et sera supprimé de la configuration d'Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Vos paramètres seront réinitialisés, cet appareil ne sera plus enregistré des notifications push et sera supprimé de la configuration d'MySmartHomes.";
 "settings.reset_section.reset_alert.progress_message" = "Réinitialisation…";
 "settings.reset_section.reset_alert.title" = "Réinitialiser";
 "settings.reset_section.reset_app.title" = "Reset App (Remove servers and data)";
@@ -591,7 +591,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings.server_select.page_title" = "Serveur";
 "settings.server_select.title" = "Serveur";
 "settings.status_section.header" = "Statut";
-"settings.status_section.location_name_row.placeholder" = "Mon Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mon MySmartHomes";
 "settings.status_section.location_name_row.title" = "Nom";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -636,7 +636,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings_details.general.app_icon.enum.electric_violet" = "Violet électrique";
 "settings_details.general.app_icon.enum.fire_orange" = "Orange de feu";
 "settings_details.general.app_icon.enum.green" = "Vert";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Bleu";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Bleu";
 "settings_details.general.app_icon.enum.old_beta" = "Ancienne bêta";
 "settings_details.general.app_icon.enum.old_dev" = "Ancienne version de Dev";
 "settings_details.general.app_icon.enum.old_release" = "Ancienne version";
@@ -774,7 +774,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Permet de vérifier les alertes importantes telles que les vulnérabilités de sécurité.";
 "settings_details.privacy.alerts.title" = "Alertes";
-"settings_details.privacy.analytics.generic_description" = "Permet la collecte d'informations de base sur votre appareil et les interactions avec l'application. Aucune donnée identifiable par l'utilisateur n'est partagée, y compris vos URL et jetons Home Assistant. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
+"settings_details.privacy.analytics.generic_description" = "Permet la collecte d'informations de base sur votre appareil et les interactions avec l'application. Aucune donnée identifiable par l'utilisateur n'est partagée, y compris vos URL et jetons MySmartHomes. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
 "settings_details.privacy.analytics.generic_title" = "Analytique";
 "settings_details.privacy.crash_reporting.description" = "Permet un suivi plus approfondi des plantages et autres erreurs dans l'application, ce qui accélère la publication des correctifs. Aucune information identifiable par l'utilisateur n'est envoyée, à l'exception des informations de base sur l'appareil. Vous devez redémarrer l'application pour que les modifications apportées à ce paramètre prennent effet.";
 "settings_details.privacy.crash_reporting.sentry" = "Cette fonction utilise actuellement Sentry comme destination du rapport.";
@@ -818,7 +818,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "thread.credentials.screen_title" = "Informations d'identification Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Assurez-vous que vous êtes connecté avec votre compte iCloud qui est propriétaire d'un domicile dans Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Vous n'avez aucune information d'identification à partager";
-"thread.credentials.share_credentials_button_title" = "Partager les informations d'identification avec Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Partager les informations d'identification avec MySmartHomes";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Informations d'identification Thread";
 "thread.network_key.title" = "Clé réseau";
@@ -830,7 +830,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "thread.store_in_keychain.error.message" = "Failed to store thread credential in keychain, error: %@";
 "thread.store_in_keychain.error.title" = "Échec de l'opération";
 "thread.transter_to_apple.title" = "Transférer vers le trousseau Apple";
-"thread.transter_to_homeassistant.title" = "Transférer vers Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transférer vers MySmartHomes";
 "token_error.connection_failed" = "La connexion a échoué.";
 "token_error.expired" = "Le jeton a expiré.";
 "token_error.token_unavailable" = "Le jeton n'est pas disponible.";
@@ -1090,7 +1090,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.action.name.navigate" = "Navigate";
 "widgets.action.name.nothing" = "Nothing";
 "widgets.action.name.run_script" = "Run Script";
-"widgets.actions.description" = "Exécutez les actions de Home Assistant.";
+"widgets.actions.description" = "Exécutez les actions de MySmartHomes.";
 "widgets.actions.not_configured" = "Aucune action configurée";
 "widgets.actions.parameters.action" = "Action";
 "widgets.actions.title" = "Actions";
@@ -1099,7 +1099,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Configurer";
 "widgets.button.reload_timeline" = "Recharger tous les widgets";
-"widgets.controls.assist.description" = "Open Assist in Home Assistant app";
+"widgets.controls.assist.description" = "Open Assist in MySmartHomes app";
 "widgets.controls.assist.pipeline.placeholder" = "Choisir un canal";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.cover.description" = "Toggle cover";
@@ -1130,8 +1130,8 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.custom.show_update_time.title" = "Last update:";
 "widgets.custom.subtitle" = "Create widgets with your own style";
 "widgets.custom.title" = "Custom widgets";
-"widgets.details.description" = "Afficher les états à l'aide de Home Assistant dans le texte";
-"widgets.details.description_with_warning" = "Display states using from Home Assistant in text. ATTENTION: User needs to be admin for templating access";
+"widgets.details.description" = "Afficher les états à l'aide de MySmartHomes dans le texte";
+"widgets.details.description_with_warning" = "Display states using from MySmartHomes in text. ATTENTION: User needs to be admin for templating access";
 "widgets.details.parameters.action" = "Action";
 "widgets.details.parameters.details_template" = "Details Text Template (only in rectangular family)";
 "widgets.details.parameters.lower_template" = "Lower Text Template";
@@ -1140,8 +1140,8 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.details.parameters.upper_template" = "Upper Text Template";
 "widgets.details.title" = "Détails";
 "widgets.entity_state.placeholder" = "Entity state";
-"widgets.gauge.description" = "Afficher les états numériques de Home Assistant dans une jauge";
-"widgets.gauge.description_with_warning" = "Display numeric states from Home Assistant in a gauge. ATTENTION: User needs to be admin for templating access";
+"widgets.gauge.description" = "Afficher les états numériques de MySmartHomes dans une jauge";
+"widgets.gauge.description_with_warning" = "Display numeric states from MySmartHomes in a gauge. ATTENTION: User needs to be admin for templating access";
 "widgets.gauge.parameters.action" = "Action";
 "widgets.gauge.parameters.gauge_type" = "Type de jauge";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capacité";
@@ -1154,7 +1154,7 @@ Home Assistant est un logiciel de domotique gratuit et open source axé sur le c
 "widgets.gauge.parameters.value_template" = "Modèle de valeur (0-1)";
 "widgets.gauge.title" = "Jauge";
 "widgets.lights.description" = "Allumer/éteindre la lumière";
-"widgets.open_page.description" = "Ouvrez une page frontale dans Home Assistant.";
+"widgets.open_page.description" = "Ouvrez une page frontale dans MySmartHomes.";
 "widgets.open_page.not_configured" = "Aucune page disponible";
 "widgets.open_page.title" = "Ouvrir la page";
 "widgets.preview.custom.description" = "Create your own widget inside the App and then display it here.";

@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help de app te vertalen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant op Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant op Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "MySmartHomes op Facebook";
+"about.home_assistant_on_twitter.title" = "MySmartHomes op Twitter";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "Awaken Your Home";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Laat een beoordeling achter";
 "about.title" = "Over";
 "about.website.title" = "Website";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "Voeg toe";
 "alert.confirmation.delete_entities.message" = "Hierdoor worden je entiteiten uit de database verwijderd en worden ze alleen opnieuw geladen wanneer je de app de volgende keer vanaf nul opent.";
 "alert.confirmation.generic.title" = "Weet je het zeker?";
-"alerts.action_automation_editor.unavailable.body" = "Als je automatisch een automatisering voor een actie wilt maken, moet je Home Assistant bijwerken naar versie 2024.2 of hoger";
-"alerts.action_automation_editor.unavailable.title" = "Werk Home Assistant bij";
+"alerts.action_automation_editor.unavailable.body" = "Als je automatisch een automatisering voor een actie wilt maken, moet je MySmartHomes bijwerken naar versie 2024.2 of hoger";
+"alerts.action_automation_editor.unavailable.title" = "Werk MySmartHomes bij";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "De server heeft je gegevens geweigerd. Je moet je opnieuw aanmelden om verder te gaan.";
 "alerts.auth_required.title" = "Je moet inloggen om door te gaan";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Beschrijving";
 "connection.error.details.label.domain" = "Domein";
 "connection.error.details.title" = "Verbindingsfout";
-"connection.error.failed_connect.cloud.title" = "Zorg ervoor dat je Home Assistant Cloud-abonnement actief is en verbonden is met je server. Je kunt dit controleren op [Nabu Casa](https://account.nabucasa.com)";
-"connection.error.failed_connect.cloud_inactive.title" = "Je hebt het gebruik van Home Assistant Cloud uitgeschakeld in de app, als je het nodig hebt voor externe toegang, open dan de instellingen van de companion app en schakel het in.";
+"connection.error.failed_connect.cloud.title" = "Zorg ervoor dat je MySmartHomes Cloud-abonnement actief is en verbonden is met je server. Je kunt dit controleren op [Nabu Casa](https://account.nabucasa.com)";
+"connection.error.failed_connect.cloud_inactive.title" = "Je hebt het gebruik van MySmartHomes Cloud uitgeschakeld in de app, als je het nodig hebt voor externe toegang, open dan de instellingen van de companion app en schakel het in.";
 "connection.error.failed_connect.subtitle" = "Controleer je verbinding en probeer het opnieuw. Als je niet thuis bent, controleer dan of je toegang op afstand hebt geconfigureerd.";
-"connection.error.failed_connect.title" = "We konden geen verbinding maken met Home Assistant";
+"connection.error.failed_connect.title" = "We konden geen verbinding maken met MySmartHomes";
 "connection.error.failed_connect.url" = "De app maakt nu verbinding met";
 "connection.error.generic_title" = "Oei! Het lijkt erop dat we geen verbinding kunnen maken.";
-"connection.permission.internal_url.body1" = "Om Home Assistant lokaal op een veilige manier te openen, moet je de locatie-toestemming ('Altijd') geven.";
-"connection.permission.internal_url.body2" = "Met deze toestemming kan Home Assistant het draadloze netwerk waarmee je verbonden bent detecteren en een lokale verbinding tot stand brengen.";
-"connection.permission.internal_url.body3" = "Je hebt altijd controle als je locatie wordt gedeeld met Home Assistant. Je kunt deze instellingen wijzigen in het instellingenscherm van de companion app.";
+"connection.permission.internal_url.body1" = "Om MySmartHomes lokaal op een veilige manier te openen, moet je de locatie-toestemming ('Altijd') geven.";
+"connection.permission.internal_url.body2" = "Met deze toestemming kan MySmartHomes het draadloze netwerk waarmee je verbonden bent detecteren en een lokale verbinding tot stand brengen.";
+"connection.permission.internal_url.body3" = "Je hebt altijd controle als je locatie wordt gedeeld met MySmartHomes. Je kunt deze instellingen wijzigen in het instellingenscherm van de companion app.";
 "connection.permission.internal_url.button_configure" = "Lokale toegang configureren";
 "connection.permission.internal_url.button_ignore" = "Ik weet wat ik doe. Sta lokale verbindingen zonder toestemming toe.";
 "connection.permission.internal_url.footer" = "Als je toch de lokale URL wilt gebruiken en geen locatietoestemming wilt geven, kun je op de knop hieronder tikken, maar wees je bewust van de veiligheidsrisico's.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 veeg naar rechts";
 "gestures.3_fingers_swipe_up.title" = "3 👆 veeg omhoog";
 "gestures.footer.title" = "Pas gebaren aan die op de frontend gebruikt kunnen worden.";
-"gestures.screen.body" = "De onderstaande gebaren kun je gebruiken wanneer je de hoofdinterface van Home Assistant gebruikt.";
+"gestures.screen.body" = "De onderstaande gebaren kun je gebruiken wanneer je de hoofdinterface van MySmartHomes gebruikt.";
 "gestures.screen.title" = "Gebaren";
 "gestures.shake.title" = "Schud";
 "gestures.swipe_left.title" = "Veeg naar links";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Geen toegang tot database (GRDB), fout: %@";
 "grdb.config.migration_error.failed_to_save" = "Kan nieuwe configuratie niet opslaan, fout: %@";
 "ha_api.api_error.cant_build_url" = "Kon de API URL niet maken";
-"ha_api.api_error.invalid_response" = "Ongeldige reactie ontvangen van Home Assistant";
+"ha_api.api_error.invalid_response" = "Ongeldige reactie ontvangen van MySmartHomes";
 "ha_api.api_error.manager_not_available" = "HA API Manager is niet beschikbaar";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Het component mobile_app is niet geladen. Voeg het toe aan je configuratie, start de Home Assistant opnieuw op en probeer het opnieuw.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Je Home Assistant-versie (%@) is te oud. Je moet upgraden naar ten minste versie %@ om de app te kunnen gebruiken.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Het component mobile_app is niet geladen. Voeg het toe aan je configuratie, start de MySmartHomes opnieuw op en probeer het opnieuw.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Je MySmartHomes-versie (%@) is te oud. Je moet upgraden naar ten minste versie %@ om de app te kunnen gebruiken.";
 "ha_api.api_error.no_available_api" = "Geen API beschikbaar. Controleer of de interne URL of externe URL beschikbaar is.";
 "ha_api.api_error.not_configured" = "HA API niet geconfigureerd";
 "ha_api.api_error.unacceptable_status_code" = "Onacceptabele statuscode %1$li .";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Icoon kleur";
 "magic_item.icon_name.title" = "Icoon naam";
 "magic_item.item_type.action.list.title" = "iOS-acties";
-"magic_item.item_type.action.list.warning.title" = "We zullen in de toekomst stoppen met het ondersteunen van iOS-acties, overweeg om in plaats daarvan Home Assistant-scripts of -scènes te gebruiken.";
+"magic_item.item_type.action.list.warning.title" = "We zullen in de toekomst stoppen met het ondersteunen van iOS-acties, overweeg om in plaats daarvan MySmartHomes-scripts of -scènes te gebruiken.";
 "magic_item.item_type.app.list.title" = "App";
 "magic_item.item_type.entity.list.title" = "Entiteit";
 "magic_item.item_type.scene.list.title" = "Scène";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Tag lezen";
 "nfc.list.description" = "NFC-tags die door de app zijn geschreven, geven een melding weer wanneer je je apparaat in de buurt brengt. Als je de melding activeert, wordt de app gestart en wordt een gebeurtenis geactiveerd.\
 \
-Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardwareondersteuning heeft om ze te lezen.";
+Tags werken op elk apparaat waarop MySmartHomes is geïnstalleerd en dat hardwareondersteuning heeft om ze te lezen.";
 "nfc.list.learn_more" = "Meer informatie";
 "nfc.list.read_tag" = "Lees NFC-tag";
 "nfc.list.title" = "NFC-tags";
 "nfc.list.write_tag" = "Schrijf NFC-tag";
 "nfc.not_available" = "NFC is niet beschikbaar op dit apparaat";
 "nfc.read.error.generic_failure" = "Kan de tag niet lezen";
-"nfc.read.error.not_home_assistant" = "NFC-tag is geen Home Assistant-tag";
+"nfc.read.error.not_home_assistant" = "NFC-tag is geen MySmartHomes-tag";
 "nfc.read.error.tag_invalid" = "NFC-tag is ongeldig";
 "nfc.read.start_message" = "Houd je %@ bij een NFC-tag";
 "nfc.tag_read" = "NFC-tag lezen";
@@ -385,7 +385,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "notification_service.parser.camera.invalid_entity" = "entity_id is ongeldig.";
 "notification_service.parser.url.invalid_url" = "De opgegeven URL was ongeldig.";
 "notification_service.parser.url.no_url" = "Er is geen URL opgegeven.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Wanneer de gebruiker een actie met deze optie selecteert, vraagt het systeem de gebruiker om het apparaat te ontgrendelen. Na het ontgrendelen wordt de Home Assistant op de hoogte gebracht van de geselecteerde actie.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Wanneer de gebruiker een actie met deze optie selecteert, vraagt het systeem de gebruiker om het apparaat te ontgrendelen. Na het ontgrendelen wordt de MySmartHomes op de hoogte gebracht van de geselecteerde actie.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authenticatie vereist";
 "notifications_configurator.action.rows.destructive.footer" = "Indien ingeschakeld, wordt de actieknop weergegeven met speciale markering om aan te geven dat het een destructieve taak uitvoert.";
 "notifications_configurator.action.rows.destructive.title" = "Vernietigend";
@@ -435,7 +435,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.manual_setup.connect" = "Verbind";
 "onboarding.manual_setup.couldnt_make_url.message" = "De waarde '%@' was geen geldige URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kan geen URL maken";
-"onboarding.manual_setup.description" = "De URL van je Home Assistant-server. Zorg ervoor dat het protocol en de poort erin staan.";
+"onboarding.manual_setup.description" = "De URL van je MySmartHomes-server. Zorg ervoor dat het protocol en de poort erin staan.";
 "onboarding.manual_setup.no_scheme.message" = "Moeten we proberen verbinding te maken via http:// of https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL ingevoerd zonder schema";
 "onboarding.manual_setup.title" = "URL invoeren";
@@ -444,7 +444,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.permissions.change_later_note" = "Je kunt deze toestemming later wijzigen in instellingen";
 "onboarding.permissions.focus.bullet.automations" = "Focusgebaseerde automatiseringen";
 "onboarding.permissions.focus.bullet.instant" = "Directe updates wanneer de status verandert";
-"onboarding.permissions.focus.description" = "Sta toe dat als u in focus modus bent dit naar Home Assistant wordt gestuurd";
+"onboarding.permissions.focus.description" = "Sta toe dat als u in focus modus bent dit naar MySmartHomes wordt gestuurd";
 "onboarding.permissions.focus.grant_description" = "Geef toestemming voor focus om sensoren te maken voor je focusstatus, ook wel bekend als niet storen.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Aanwezigheidsgebaseerde automatiseringen";
@@ -456,27 +456,27 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.permissions.motion.bullet.activity" = "Sensor voor huidig activiteitstype";
 "onboarding.permissions.motion.bullet.distance" = "Sensor voor afgelegde afstand";
 "onboarding.permissions.motion.bullet.steps" = "Sensor voor stappentelling";
-"onboarding.permissions.motion.description" = "Toestaan dat bewegingsactiviteiten en stappentellergegevens naar Home Assistant worden gezonden";
+"onboarding.permissions.motion.description" = "Toestaan dat bewegingsactiviteiten en stappentellergegevens naar MySmartHomes worden gezonden";
 "onboarding.permissions.motion.grant_description" = "Toestemming geven voor beweging om sensoren te maken voor bewegings- en stappentellergegevens.";
 "onboarding.permissions.motion.title" = "Beweging en stappenteller";
 "onboarding.permissions.notification.bullet.alert" = "Ontvang waarschuwingen van meldingen";
 "onboarding.permissions.notification.bullet.badge" = "App-icoonbadge bijwerken";
 "onboarding.permissions.notification.bullet.commands" = "Stuur opdrachten naar je apparaat";
-"onboarding.permissions.notification.description" = "Toestaan dat pushmeldingen worden verzonden vanuit Home Assistant";
+"onboarding.permissions.notification.description" = "Toestaan dat pushmeldingen worden verzonden vanuit MySmartHomes";
 "onboarding.permissions.notification.grant_description" = "Geef toestemming voor meldingen om een meldingsservice voor je apparaat te maken.";
 "onboarding.permissions.notification.title" = "Meldingen";
 "onboarding.scanning.discovered_announcement" = "Ontdekt: %@";
 "onboarding.scanning.manual" = "Voer handmatig een adres in";
 "onboarding.scanning.manual_hint" = "Kun je je server niet vinden?";
 "onboarding.scanning.title" = "Scannen naar servers";
-"onboarding.welcome.description" = "Deze app maakt verbinding met je Home Assistant-server en maakt het mogelijk gegevens over jou en je telefoon te integreren.\
+"onboarding.welcome.description" = "Deze app maakt verbinding met je MySmartHomes-server en maakt het mogelijk gegevens over jou en je telefoon te integreren.\
 \
-Home Assistant is gratis en open source domotica-software met een focus op lokale controle en privacy.";
+MySmartHomes is gratis en open source domotica-software met een focus op lokale controle en privacy.";
 "onboarding.welcome.learn_more" = "Meer informatie";
-"onboarding.welcome.title" = "Welkom bij Home Assistant %@!";
+"onboarding.welcome.title" = "Welkom bij MySmartHomes %@!";
 "open_label" = "Open";
 "permission.screen.bluetooth.secondary_button" = "Overslaan";
-"permission.screen.bluetooth.subtitle" = "De Home Assistant app kan apparaten vinden via Bluetooth van dit apparaat. Sta Bluetooth-toegang toe voor de Home Assistant app.";
+"permission.screen.bluetooth.subtitle" = "De MySmartHomes app kan apparaten vinden via Bluetooth van dit apparaat. Sta Bluetooth-toegang toe voor de MySmartHomes app.";
 "permission.screen.bluetooth.title" = "Zoek apparaten";
 "preview_output" = "Voorbeeld Output";
 "reload_label" = "Herladen";
@@ -504,7 +504,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.connection_section.external_base_url.placeholder" = "bijv. https://homeassistant.mijnhuis.nl";
 "settings.connection_section.external_base_url.title" = "Externe URL";
 "settings.connection_section.header" = "Verbinding";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "bijv. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Instellen vereist";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "Om de interne URL te gebruiken, moet de naam van je wifi-netwerk (SSID) of hardwareadressen opgeven. Anders gebruikt de app altijd standaard de externe URL.";
@@ -518,7 +518,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.connection_section.internal_url_ssids.footer" = "Interne URL wordt gebruikt bij verbinding met de vermelde SSID's";
 "settings.connection_section.internal_url_ssids.header" = "SSID's";
 "settings.connection_section.internal_url_ssids.placeholder" = "MijnLeukeNetwerkNaam";
-"settings.connection_section.local_push_description" = "Maak rechtstreeks verbinding met de Home Assistant-server voor pushmeldingen op interne SSID's.";
+"settings.connection_section.local_push_description" = "Maak rechtstreeks verbinding met de MySmartHomes-server voor pushmeldingen op interne SSID's.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Nooit";
 "settings.connection_section.location_send_type.setting.zone_only" = "Alleen zonenaam";
@@ -582,7 +582,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.location_history.title" = "Locatiegeschiedenis";
 "settings.navigation_bar.about_button.title" = "Over";
 "settings.navigation_bar.title" = "Instellingen";
-"settings.reset_section.reset_alert.message" = "Je instellingen worden gereset en dit apparaat wordt niet langer geregistreerd voor pushmeldingen en verwijderd uit je Home Assistant-configuratie.";
+"settings.reset_section.reset_alert.message" = "Je instellingen worden gereset en dit apparaat wordt niet langer geregistreerd voor pushmeldingen en verwijderd uit je MySmartHomes-configuratie.";
 "settings.reset_section.reset_alert.progress_message" = "Resetten…";
 "settings.reset_section.reset_alert.title" = "Herstel";
 "settings.reset_section.reset_app.title" = "App resetten (servers en gegevens verwijderen)";
@@ -591,7 +591,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Mijn Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mijn MySmartHomes";
 "settings.status_section.location_name_row.title" = "Naam";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versie";
@@ -636,7 +636,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrisch Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Vuur Oranje";
 "settings_details.general.app_icon.enum.green" = "Groen";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blauw";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Blauw";
 "settings_details.general.app_icon.enum.old_beta" = "Oude bèta";
 "settings_details.general.app_icon.enum.old_dev" = "Oude Dev";
 "settings_details.general.app_icon.enum.old_release" = "Oude versie";
@@ -774,7 +774,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings_details.notifications.title" = "Meldingen";
 "settings_details.privacy.alerts.description" = "Maakt het mogelijk om te controleren op belangrijke waarschuwingen, zoals beveiligingsproblemen.";
 "settings_details.privacy.alerts.title" = "Waarschuwingen";
-"settings_details.privacy.analytics.generic_description" = "Maakt het verzamelen van basisinformatie over je apparaat en interacties met de app mogelijk. Er worden geen gegevens gedeeld waarmee de gebruiker kan worden geïdentificeerd, inclusief de URL's en tokens van je Home Assistant. Je moet de app opnieuw opstarten om wijzigingen aan deze instelling door te voeren.";
+"settings_details.privacy.analytics.generic_description" = "Maakt het verzamelen van basisinformatie over je apparaat en interacties met de app mogelijk. Er worden geen gegevens gedeeld waarmee de gebruiker kan worden geïdentificeerd, inclusief de URL's en tokens van je MySmartHomes. Je moet de app opnieuw opstarten om wijzigingen aan deze instelling door te voeren.";
 "settings_details.privacy.analytics.generic_title" = "Analyse";
 "settings_details.privacy.crash_reporting.description" = "Hiermee kunnen crashes en andere fouten in de app beter worden gevolgd, waardoor oplossingen sneller worden uitgebracht. Er wordt geen informatie verzonden waarmee de gebruiker kan worden geïdentificeerd, behalve basisinformatie over het apparaat. Je moet de app opnieuw opstarten om wijzigingen aan deze instelling door te voeren.";
 "settings_details.privacy.crash_reporting.sentry" = "Deze functie gebruikt momenteel Sentry als rapportbestemming.";
@@ -818,7 +818,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "thread.credentials.screen_title" = "Thread-referenties";
 "thread.credentials.share_credentials.no_credentials_message" = "Zorg ervoor dat je bent ingelogd met je Apple-account dat eigenaar is van een woning in Apple Woning.";
 "thread.credentials.share_credentials.no_credentials_title" = "Je hebt geen referenties om te delen";
-"thread.credentials.share_credentials_button_title" = "Deel referentie met Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Deel referentie met MySmartHomes";
 "thread.extended_pan_id.title" = "Verlengde PAN-ID";
 "thread.management.title" = "Thread-referenties";
 "thread.network_key.title" = "Netwerksleutel";
@@ -830,7 +830,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "thread.store_in_keychain.error.message" = "Het is niet gelukt om de thread-referenties in de sleutelhanger op te slaan, fout: %@";
 "thread.store_in_keychain.error.title" = "Bewerking mislukt";
 "thread.transter_to_apple.title" = "Overzetten naar Apple Sleutelhanger";
-"thread.transter_to_homeassistant.title" = "Overzetten naar Home Assistant";
+"thread.transter_to_homeassistant.title" = "Overzetten naar MySmartHomes";
 "token_error.connection_failed" = "Verbinding mislukt.";
 "token_error.expired" = "Token is verlopen.";
 "token_error.token_unavailable" = "Token is niet beschikbaar.";
@@ -1090,7 +1090,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "widgets.action.name.navigate" = "Navigeer";
 "widgets.action.name.nothing" = "Niets";
 "widgets.action.name.run_script" = "Script uitvoeren";
-"widgets.actions.description" = "Voer Home Assistant-acties uit.";
+"widgets.actions.description" = "Voer MySmartHomes-acties uit.";
 "widgets.actions.not_configured" = "Geen acties geconfigureerd";
 "widgets.actions.parameters.action" = "Actie";
 "widgets.actions.title" = "Acties";
@@ -1099,7 +1099,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Configureer";
 "widgets.button.reload_timeline" = "Alle widgets opnieuw laden";
-"widgets.controls.assist.description" = "Open Assist in de Home Assistant-app";
+"widgets.controls.assist.description" = "Open Assist in de MySmartHomes-app";
 "widgets.controls.assist.pipeline.placeholder" = "Kies een pijplijn";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.cover.description" = "Raambekleding omschakelen";
@@ -1130,8 +1130,8 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "widgets.custom.show_update_time.title" = "Laatst bijgewerkt:";
 "widgets.custom.subtitle" = "Maak widgets in je eigen stijl";
 "widgets.custom.title" = "Aangepaste widgets";
-"widgets.details.description" = "Statussen weergeven met behulp van Home Assistant in tekst";
-"widgets.details.description_with_warning" = "Statussen weergeven van Home Assistant in tekst. LET OP: Gebruiker moet beheerder zijn voor sjabloontoegang";
+"widgets.details.description" = "Statussen weergeven met behulp van MySmartHomes in tekst";
+"widgets.details.description_with_warning" = "Statussen weergeven van MySmartHomes in tekst. LET OP: Gebruiker moet beheerder zijn voor sjabloontoegang";
 "widgets.details.parameters.action" = "Actie";
 "widgets.details.parameters.details_template" = "Details tekstsjabloon (alleen in rechthoekige familie)";
 "widgets.details.parameters.lower_template" = "Onderste tekstsjabloon";
@@ -1140,8 +1140,8 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "widgets.details.parameters.upper_template" = "Bovenste tekstsjabloon";
 "widgets.details.title" = "Details";
 "widgets.entity_state.placeholder" = "Entiteitsstatus";
-"widgets.gauge.description" = "Numerieke statussen van Home Assistant weergeven in een meter";
-"widgets.gauge.description_with_warning" = "Numerieke statussen van Home Assistant weergeven in een meter. LET OP: Gebruiker moet beheerder zijn voor sjabloontoegang";
+"widgets.gauge.description" = "Numerieke statussen van MySmartHomes weergeven in een meter";
+"widgets.gauge.description_with_warning" = "Numerieke statussen van MySmartHomes weergeven in een meter. LET OP: Gebruiker moet beheerder zijn voor sjabloontoegang";
 "widgets.gauge.parameters.action" = "Actie";
 "widgets.gauge.parameters.gauge_type" = "Type meter";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capaciteit";
@@ -1154,7 +1154,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "widgets.gauge.parameters.value_template" = "Waardesjabloon (0-1)";
 "widgets.gauge.title" = "Meter";
 "widgets.lights.description" = "Licht aan of uit zetten";
-"widgets.open_page.description" = "Open een frontend-pagina in Home Assistant";
+"widgets.open_page.description" = "Open een frontend-pagina in MySmartHomes";
 "widgets.open_page.not_configured" = "Geen pagina's beschikbaar";
 "widgets.open_page.title" = "Open pagina";
 "widgets.preview.custom.description" = "Maak je eigen widget in de app en toon hem hier.";

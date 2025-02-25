@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help localize the app!";
-"about.home_assistant_on_facebook.title" = "Home Assistant on Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant on Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "MySmartHomes on Facebook";
+"about.home_assistant_on_twitter.title" = "MySmartHomes on Twitter";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "Awaken Your Home";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Leave a review";
 "about.title" = "Giới thiệu";
 "about.website.title" = "Website";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "Add";
 "alert.confirmation.delete_entities.message" = "This will clean your entities from database and it will only reload the next time you open the app from zero.";
 "alert.confirmation.generic.title" = "Are you sure?";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your MySmartHomes to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update MySmartHomes";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "The server has rejected your credentials, and you must sign in again to continue.";
 "alerts.auth_required.title" = "You must sign in to continue";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Description";
 "connection.error.details.label.domain" = "Domain";
 "connection.error.details.title" = "Connection error";
-"connection.error.failed_connect.cloud.title" = "Make sure your Home Assistant Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
-"connection.error.failed_connect.cloud_inactive.title" = "You have disabled Home Assistant Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
+"connection.error.failed_connect.cloud.title" = "Make sure your MySmartHomes Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
+"connection.error.failed_connect.cloud_inactive.title" = "You have disabled MySmartHomes Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
 "connection.error.failed_connect.subtitle" = "Check your connection and try again. If you are not at home make sure you have configured remote access.";
-"connection.error.failed_connect.title" = "We couldn't connect to Home Assistant";
+"connection.error.failed_connect.title" = "We couldn't connect to MySmartHomes";
 "connection.error.failed_connect.url" = "The app is currently connecting to";
 "connection.error.generic_title" = "Uh oh! Looks like we are unable to establish a connection.";
-"connection.permission.internal_url.body1" = "To access Home Assistant locally in a secure way, you need to grant the location permission ('Always').";
-"connection.permission.internal_url.body2" = "This permission allows Home Assistant to detect the wireless network that you're connected to and establish a local connection.";
-"connection.permission.internal_url.body3" = "You are always in control if your location is shared with Home Assistant. You can change these settings in the companion app setting screen.";
+"connection.permission.internal_url.body1" = "To access MySmartHomes locally in a secure way, you need to grant the location permission ('Always').";
+"connection.permission.internal_url.body2" = "This permission allows MySmartHomes to detect the wireless network that you're connected to and establish a local connection.";
+"connection.permission.internal_url.body3" = "You are always in control if your location is shared with MySmartHomes. You can change these settings in the companion app setting screen.";
 "connection.permission.internal_url.button_configure" = "Configure local access";
 "connection.permission.internal_url.button_ignore" = "I know what I am doing. Allow local connections without permission access.";
 "connection.permission.internal_url.footer" = "If you still want to use the local URL and don't want to provide location permission, you can tap the button below, but please, be aware of the security risks.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 swipe right";
 "gestures.3_fingers_swipe_up.title" = "3 👆 swipe up";
 "gestures.footer.title" = "Customize gestures to be used on the frontend.";
-"gestures.screen.body" = "Gestures below will be applied whenever you are using Home Assistant main UI.";
+"gestures.screen.body" = "Gestures below will be applied whenever you are using MySmartHomes main UI.";
 "gestures.screen.title" = "Gestures";
 "gestures.shake.title" = "Shake";
 "gestures.swipe_left.title" = "Swipe Left";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Failed to access database (GRDB), error: %@";
 "grdb.config.migration_error.failed_to_save" = "Failed to save new config, error: %@";
 "ha_api.api_error.cant_build_url" = "Cant build API URL";
-"ha_api.api_error.invalid_response" = "Received invalid response from Home Assistant";
+"ha_api.api_error.invalid_response" = "Received invalid response from MySmartHomes";
 "ha_api.api_error.manager_not_available" = "HA API Manager is unavailable";
-"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart Home Assistant, and try again.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart MySmartHomes, and try again.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Your MySmartHomes version (%@) is too old, you must upgrade to at least version %@ to use the app.";
 "ha_api.api_error.no_available_api" = "No API available, double check if internal URL or external URL are available.";
 "ha_api.api_error.not_configured" = "HA API not configured";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Icon color";
 "magic_item.icon_name.title" = "Icon name";
 "magic_item.item_type.action.list.title" = "iOS Actions";
-"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using Home Assistant scripts or scenes instead.";
+"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using MySmartHomes scripts or scenes instead.";
 "magic_item.item_type.app.list.title" = "App";
 "magic_item.item_type.entity.list.title" = "Entity";
 "magic_item.item_type.scene.list.title" = "Scenes";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with MySmartHomes installed which has hardware support to read them.";
 "nfc.list.learn_more" = "Learn More";
 "nfc.list.read_tag" = "Read Tag";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "Write Tag";
 "nfc.not_available" = "NFC is not available on this device";
 "nfc.read.error.generic_failure" = "Failed to read tag";
-"nfc.read.error.not_home_assistant" = "NFC tag is not a Home Assistant tag";
+"nfc.read.error.not_home_assistant" = "NFC tag is not a MySmartHomes tag";
 "nfc.read.error.tag_invalid" = "NFC tag is invalid";
 "nfc.read.start_message" = "Hold your %@ near an NFC tag";
 "nfc.tag_read" = "NFC Tag Read";
@@ -385,7 +385,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, MySmartHomes will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authentication Required";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructive";
@@ -435,7 +435,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "Kết nối";
 "onboarding.manual_setup.couldnt_make_url.message" = "The value '%@' was not a valid URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Could not create a URL";
-"onboarding.manual_setup.description" = "Địa chỉ URL máy chủ Home Assistant của bạn. Hãy chắc chắn rằng nó bao gồm cả giao thức và cổng.";
+"onboarding.manual_setup.description" = "Địa chỉ URL máy chủ MySmartHomes của bạn. Hãy chắc chắn rằng nó bao gồm cả giao thức và cổng.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Nhập URL";
@@ -444,7 +444,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "Bạn có thể thay đổi quyền này sau trong Cài đặt";
 "onboarding.permissions.focus.bullet.automations" = "Tự động hóa dựa trên sự tập trung";
 "onboarding.permissions.focus.bullet.instant" = "Cập nhật tức thì khi trạng thái thay đổi";
-"onboarding.permissions.focus.description" = "Cho phép gửi tới Home Assistant trạng thái bạn có đang ở chế độ tập trung";
+"onboarding.permissions.focus.description" = "Cho phép gửi tới MySmartHomes trạng thái bạn có đang ở chế độ tập trung";
 "onboarding.permissions.focus.grant_description" = "Cho phép quyền tập trung để tạo cảm biến cho trạng thái tập trung của bạn, còn được gọi là không làm phiền.";
 "onboarding.permissions.focus.title" = "Tập trung";
 "onboarding.permissions.location.bullet.automations" = "Tự động hóa dựa trên sự hiện diện";
@@ -456,27 +456,27 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Cảm biến cho loại hoạt động hiện tại";
 "onboarding.permissions.motion.bullet.distance" = "Cảm biến khoảng cách di chuyển";
 "onboarding.permissions.motion.bullet.steps" = "Cảm biến đếm bước";
-"onboarding.permissions.motion.description" = "Cho phép gửi dữ liệu về hoạt động chuyển động và máy đếm bước đi tới Home Assistant";
+"onboarding.permissions.motion.description" = "Cho phép gửi dữ liệu về hoạt động chuyển động và máy đếm bước đi tới MySmartHomes";
 "onboarding.permissions.motion.grant_description" = "Cho phép quyền chuyển động để tạo cảm biến cho dữ liệu chuyển động và máy đếm bước đi.";
 "onboarding.permissions.motion.title" = "Chuyển động & Máy đếm bước đi";
 "onboarding.permissions.notification.bullet.alert" = "Nhận các thông báo cảnh báo";
 "onboarding.permissions.notification.bullet.badge" = "Cập nhật biểu tượng ứng dụng";
 "onboarding.permissions.notification.bullet.commands" = "Gửi lệnh đến thiết bị của bạn";
-"onboarding.permissions.notification.description" = "Cho phép gửi thông báo đẩy từ Home Assistant của bạn";
+"onboarding.permissions.notification.description" = "Cho phép gửi thông báo đẩy từ MySmartHomes của bạn";
 "onboarding.permissions.notification.grant_description" = "Cho phép quyền thông báo để tạo dịch vụ thông báo cho thiết bị của bạn.";
 "onboarding.permissions.notification.title" = "Thông báo";
 "onboarding.scanning.discovered_announcement" = "Đã phát hiện: %@";
 "onboarding.scanning.manual" = "Nhập đường dẫn thủ công";
 "onboarding.scanning.manual_hint" = "Không tìm thấy máy chủ nào.";
 "onboarding.scanning.title" = "Đang quét tìm máy chủ";
-"onboarding.welcome.description" = "Ứng dụng này kết nối với máy chủ Home Assistant và cho phép tích hợp dữ liệu về bạn và điện thoại của bạn. \
+"onboarding.welcome.description" = "Ứng dụng này kết nối với máy chủ MySmartHomes và cho phép tích hợp dữ liệu về bạn và điện thoại của bạn. \
 \
-Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở và miễn phí, tập trung vào quyền kiểm soát và quyền riêng tư cục bộ.";
+MySmartHomes là phần mềm tự động hóa gia đình mã nguồn mở và miễn phí, tập trung vào quyền kiểm soát và quyền riêng tư cục bộ.";
 "onboarding.welcome.learn_more" = "Learn more";
-"onboarding.welcome.title" = "Chào mừng bạn đến với Home Assistant%@!";
+"onboarding.welcome.title" = "Chào mừng bạn đến với MySmartHomes%@!";
 "open_label" = "Mở";
 "permission.screen.bluetooth.secondary_button" = "Skip";
-"permission.screen.bluetooth.subtitle" = "The Home Assistant app can find devices using Bluetooth of this device. Allow Bluetooth access for the Home Assistant app.";
+"permission.screen.bluetooth.subtitle" = "The MySmartHomes app can find devices using Bluetooth of this device. Allow Bluetooth access for the MySmartHomes app.";
 "permission.screen.bluetooth.title" = "Search devices";
 "preview_output" = "Preview Output";
 "reload_label" = "Reload";
@@ -504,7 +504,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Requires setup";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "To use internal URL you need to specify your Wifi network name (SSID) or hardware addresses, otherwise the App will always default to external URL.";
@@ -518,7 +518,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.connection_section.internal_url_ssids.footer" = "Internal URL will be used when connected to listed SSIDs";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Kết nối trực tiếp với máy chủ Home Assistant để nhận thông báo đẩy khi sử dụng SSID nội bộ.";
+"settings.connection_section.local_push_description" = "Kết nối trực tiếp với máy chủ MySmartHomes để nhận thông báo đẩy khi sử dụng SSID nội bộ.";
 "settings.connection_section.location_send_type.setting.exact" = "Chính xác";
 "settings.connection_section.location_send_type.setting.never" = "Không bao giờ";
 "settings.connection_section.location_send_type.setting.zone_only" = "Chỉ tên vùng";
@@ -548,7 +548,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.debugging.header.title" = "Debug";
 "settings.debugging.shake_disclaimer.title" = "Now when you shake the app you can access debug features.";
 "settings.debugging.shake_disclaimer_optional.title" = "Shake the App to open debug";
-"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in Home Assistant or delete from Keychain.";
+"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in MySmartHomes or delete from Keychain.";
 "settings.debugging.title" = "Debugging";
 "settings.details_section.location_settings_row.title" = "Location";
 "settings.details_section.notification_settings_row.title" = "Notifications";
@@ -582,7 +582,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.location_history.title" = "Lịch sử vị trí";
 "settings.navigation_bar.about_button.title" = "Giới thiệu";
 "settings.navigation_bar.title" = "Settings";
-"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Home Assistant configuration.";
+"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your MySmartHomes configuration.";
 "settings.reset_section.reset_alert.progress_message" = "Resetting…";
 "settings.reset_section.reset_alert.title" = "Reset";
 "settings.reset_section.reset_app.title" = "Reset App (Remove servers and data)";
@@ -591,7 +591,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.server_select.page_title" = "Máy chủ";
 "settings.server_select.title" = "Máy chủ";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My MySmartHomes";
 "settings.status_section.location_name_row.title" = "Name";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -636,7 +636,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Green";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Old Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Old Dev";
 "settings_details.general.app_icon.enum.old_release" = "Old Release";
@@ -774,7 +774,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your MySmartHomes URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -818,7 +818,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with MySmartHomes";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -830,7 +830,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "thread.store_in_keychain.error.message" = "Failed to store thread credential in keychain, error: %@";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to MySmartHomes";
 "token_error.connection_failed" = "Connection failed.";
 "token_error.expired" = "Token is expired.";
 "token_error.token_unavailable" = "Token is unavailable.";
@@ -1090,7 +1090,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "widgets.action.name.navigate" = "Navigate";
 "widgets.action.name.nothing" = "Nothing";
 "widgets.action.name.run_script" = "Run Script";
-"widgets.actions.description" = "Thực hiện các tác vụ của Home Assistant.";
+"widgets.actions.description" = "Thực hiện các tác vụ của MySmartHomes.";
 "widgets.actions.not_configured" = "Không có Hành động nào được Cấu hình";
 "widgets.actions.parameters.action" = "Action";
 "widgets.actions.title" = "Hành động";
@@ -1099,7 +1099,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Configure";
 "widgets.button.reload_timeline" = "Reload all widgets";
-"widgets.controls.assist.description" = "Open Assist in Home Assistant app";
+"widgets.controls.assist.description" = "Open Assist in MySmartHomes app";
 "widgets.controls.assist.pipeline.placeholder" = "Choose a pipeline";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.cover.description" = "Toggle cover";
@@ -1130,8 +1130,8 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "widgets.custom.show_update_time.title" = "Last update:";
 "widgets.custom.subtitle" = "Create widgets with your own style";
 "widgets.custom.title" = "Custom widgets";
-"widgets.details.description" = "Display states using from Home Assistant in text";
-"widgets.details.description_with_warning" = "Display states using from Home Assistant in text. ATTENTION: User needs to be admin for templating access";
+"widgets.details.description" = "Display states using from MySmartHomes in text";
+"widgets.details.description_with_warning" = "Display states using from MySmartHomes in text. ATTENTION: User needs to be admin for templating access";
 "widgets.details.parameters.action" = "Action";
 "widgets.details.parameters.details_template" = "Details Text Template (only in rectangular family)";
 "widgets.details.parameters.lower_template" = "Lower Text Template";
@@ -1140,8 +1140,8 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "widgets.details.parameters.upper_template" = "Upper Text Template";
 "widgets.details.title" = "Details";
 "widgets.entity_state.placeholder" = "Entity state";
-"widgets.gauge.description" = "Display numeric states from Home Assistant in a gauge";
-"widgets.gauge.description_with_warning" = "Display numeric states from Home Assistant in a gauge. ATTENTION: User needs to be admin for templating access";
+"widgets.gauge.description" = "Display numeric states from MySmartHomes in a gauge";
+"widgets.gauge.description_with_warning" = "Display numeric states from MySmartHomes in a gauge. ATTENTION: User needs to be admin for templating access";
 "widgets.gauge.parameters.action" = "Action";
 "widgets.gauge.parameters.gauge_type" = "Gauge Type";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capacity";
@@ -1154,7 +1154,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "widgets.gauge.parameters.value_template" = "Value Template (0-1)";
 "widgets.gauge.title" = "Gauge";
 "widgets.lights.description" = "Turn on/off light";
-"widgets.open_page.description" = "Mở một trang giao diện người dùng trong Home Assistant.";
+"widgets.open_page.description" = "Mở một trang giao diện người dùng trong MySmartHomes.";
 "widgets.open_page.not_configured" = "Không có trang nào";
 "widgets.open_page.title" = "Mở trang";
 "widgets.preview.custom.description" = "Create your own widget inside the App and then display it here.";

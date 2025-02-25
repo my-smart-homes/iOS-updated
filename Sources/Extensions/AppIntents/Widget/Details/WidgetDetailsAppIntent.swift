@@ -9,7 +9,7 @@ struct WidgetDetailsAppIntent: WidgetConfigurationIntent {
     static let description = IntentDescription(
         .init(
             "widgets.details.description_with_warning",
-            defaultValue: "Display states using from Home Assistant in text. ATTENTION: User needs to be admin to use this feature"
+            defaultValue: "Display states using from MySmartHomes in text. ATTENTION: User needs to be admin to use this feature"
         )
     )
 

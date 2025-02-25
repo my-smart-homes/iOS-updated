@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Vikaseuranta";
 "about.help_localize.title" = "Auta paikallistamaan sovellusta!";
-"about.home_assistant_on_facebook.title" = "Home Assistant Facebookissa";
-"about.home_assistant_on_twitter.title" = "Home Assistant Twitterissä";
-"about.logo.app_title" = "Home Assistantin kumppani";
+"about.home_assistant_on_facebook.title" = "MySmartHomes Facebookissa";
+"about.home_assistant_on_twitter.title" = "MySmartHomes Twitterissä";
+"about.logo.app_title" = "MySmartHomesin kumppani";
 "about.logo.tagline" = "Herätä kotiasi";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Jätä arvostelu";
 "about.title" = "Tietoja";
 "about.website.title" = "Verkkosivusto";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "Lisää";
 "alert.confirmation.delete_entities.message" = "This will clean your entities from database and it will only reload the next time you open the app from zero.";
 "alert.confirmation.generic.title" = "Are you sure?";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Päivitä Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your MySmartHomes to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Päivitä MySmartHomes";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Palvelin on hylännyt tunnistetietoasi, ja sinun on kirjauduttava uudelleen jatkaaksesi.";
 "alerts.auth_required.title" = "Sinun on kirjauduttava sisään jatkaaksesi";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Description";
 "connection.error.details.label.domain" = "Domain";
 "connection.error.details.title" = "Connection error";
-"connection.error.failed_connect.cloud.title" = "Make sure your Home Assistant Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
-"connection.error.failed_connect.cloud_inactive.title" = "You have disabled Home Assistant Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
+"connection.error.failed_connect.cloud.title" = "Make sure your MySmartHomes Cloud subscription is active and connected to your server, you can verify that at [Nabu Casa](https://account.nabucasa.com)";
+"connection.error.failed_connect.cloud_inactive.title" = "You have disabled MySmartHomes Cloud use in the app, if you need it for remote access please open companion app settings and enable it.";
 "connection.error.failed_connect.subtitle" = "Check your connection and try again. If you are not at home make sure you have configured remote access.";
-"connection.error.failed_connect.title" = "We couldn't connect to Home Assistant";
+"connection.error.failed_connect.title" = "We couldn't connect to MySmartHomes";
 "connection.error.failed_connect.url" = "The app is currently connecting to";
 "connection.error.generic_title" = "Uh oh! Looks like we are unable to establish a connection.";
-"connection.permission.internal_url.body1" = "To access Home Assistant locally in a secure way, you need to grant the location permission ('Always').";
-"connection.permission.internal_url.body2" = "This permission allows Home Assistant to detect the wireless network that you're connected to and establish a local connection.";
-"connection.permission.internal_url.body3" = "You are always in control if your location is shared with Home Assistant. You can change these settings in the companion app setting screen.";
+"connection.permission.internal_url.body1" = "To access MySmartHomes locally in a secure way, you need to grant the location permission ('Always').";
+"connection.permission.internal_url.body2" = "This permission allows MySmartHomes to detect the wireless network that you're connected to and establish a local connection.";
+"connection.permission.internal_url.body3" = "You are always in control if your location is shared with MySmartHomes. You can change these settings in the companion app setting screen.";
 "connection.permission.internal_url.button_configure" = "Configure local access";
 "connection.permission.internal_url.button_ignore" = "I know what I am doing. Allow local connections without permission access.";
 "connection.permission.internal_url.footer" = "If you still want to use the local URL and don't want to provide location permission, you can tap the button below, but please, be aware of the security risks.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 swipe right";
 "gestures.3_fingers_swipe_up.title" = "3 👆 swipe up";
 "gestures.footer.title" = "Customize gestures to be used on the frontend.";
-"gestures.screen.body" = "Gestures below will be applied whenever you are using Home Assistant main UI.";
+"gestures.screen.body" = "Gestures below will be applied whenever you are using MySmartHomes main UI.";
 "gestures.screen.title" = "Gestures";
 "gestures.shake.title" = "Shake";
 "gestures.swipe_left.title" = "Swipe Left";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Failed to access database (GRDB), error: %@";
 "grdb.config.migration_error.failed_to_save" = "Failed to save new config, error: %@";
 "ha_api.api_error.cant_build_url" = "Ei voi rakentaa API URL:ia";
-"ha_api.api_error.invalid_response" = "Vastaanotettu virheellinen vastaus Home Assistantilta";
+"ha_api.api_error.invalid_response" = "Vastaanotettu virheellinen vastaus MySmartHomesilta";
 "ha_api.api_error.manager_not_available" = "HA API Manager ei ole käytettävissä";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenttia ei ole ladattu. Lisää se kokoonpanoon, käynnistä Home Assistant uudelleen ja yritä uudestaan.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant-versiosi (%@) on liian vanha, sinun on päivitettävä vähintään versioon %@, jotta voit käyttää sovellusta.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenttia ei ole ladattu. Lisää se kokoonpanoon, käynnistä MySmartHomes uudelleen ja yritä uudestaan.";
+"ha_api.api_error.must_upgrade_home_assistant" = "MySmartHomes-versiosi (%@) on liian vanha, sinun on päivitettävä vähintään versioon %@, jotta voit käyttää sovellusta.";
 "ha_api.api_error.no_available_api" = "No API available, double check if internal URL or external URL are available.";
 "ha_api.api_error.not_configured" = "HA API ei ole määritetty";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Icon color";
 "magic_item.icon_name.title" = "Icon name";
 "magic_item.item_type.action.list.title" = "iOS Actions";
-"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using Home Assistant scripts or scenes instead.";
+"magic_item.item_type.action.list.warning.title" = "We will stop supporting iOS Actions in the future, please consider using MySmartHomes scripts or scenes instead.";
 "magic_item.item_type.app.list.title" = "App";
 "magic_item.item_type.entity.list.title" = "Entity";
 "magic_item.item_type.scene.list.title" = "Scenes";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "Sovelluksen kirjoittamat NFC-tunnisteet näyttävät ilmoituksen, kun tuot laitteesi niiden lähelle. Ilmoituksen painaminen käynnistää sovelluksen joka käynnistää tapahtuman. \
 \
-NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assistant ja jolla on tuki NFC-tunnisteiden lukemiseen.";
+NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu MySmartHomes ja jolla on tuki NFC-tunnisteiden lukemiseen.";
 "nfc.list.learn_more" = "Lisätietoja";
 "nfc.list.read_tag" = "Lue tunniste";
 "nfc.list.title" = "NFC-tunnisteet";
 "nfc.list.write_tag" = "Kirjoita tunniste";
 "nfc.not_available" = "NFC ei ole käytettävissä tällä laitteella";
 "nfc.read.error.generic_failure" = "Tunnisteen lukeminen epäonnistui";
-"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole Home Assistant -tunniste";
+"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole MySmartHomes -tunniste";
 "nfc.read.error.tag_invalid" = "NFC-tunniste on virheellinen";
 "nfc.read.start_message" = "Pidä %@ lähellä NFC-tunnistetta";
 "nfc.tag_read" = "NFC-tunnisteen luku";
@@ -385,7 +385,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "notification_service.parser.camera.invalid_entity" = "Annettu entity_id oli virheellinen.";
 "notification_service.parser.url.invalid_url" = "Annettu URL-osoite oli virheellinen.";
 "notification_service.parser.url.no_url" = "URL-osoitetta ei annettu.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Kun käyttäjä valitsee toiminnon tällä asetuksella, järjestelmä kehottaa käyttäjää avaamaan laitetta. Avaamisen jälkeen Home Assistant saa ilmoituksen käyttäjän valitusta toimesta.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Kun käyttäjä valitsee toiminnon tällä asetuksella, järjestelmä kehottaa käyttäjää avaamaan laitetta. Avaamisen jälkeen MySmartHomes saa ilmoituksen käyttäjän valitusta toimesta.";
 "notifications_configurator.action.rows.authentication_required.title" = "Vaaditaan todennusta";
 "notifications_configurator.action.rows.destructive.footer" = "Käyttöönotettu, tapahtumapainike korostetaan osoittaakseen, että se suorittaa tuhoisan tehtävän.";
 "notifications_configurator.action.rows.destructive.title" = "Tuhoisa";
@@ -435,7 +435,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.manual_setup.connect" = "Yhdistä";
 "onboarding.manual_setup.couldnt_make_url.message" = "Arvo '%@' ei ollut kelvollinen URL-osoite.";
 "onboarding.manual_setup.couldnt_make_url.title" = "URL-osoitetta ei voitu luoda";
-"onboarding.manual_setup.description" = "Home Assistant -palvelimesi URL. Varmista, että se sisältää protokollan sekä portin.";
+"onboarding.manual_setup.description" = "MySmartHomes -palvelimesi URL. Varmista, että se sisältää protokollan sekä portin.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Syötä URL";
@@ -444,7 +444,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.change_later_note" = "Voit muuttaa tätä lupaa myöhemmin Asetuksissa";
 "onboarding.permissions.focus.bullet.automations" = "Keskittymistilaan perustuvat automaatiot";
 "onboarding.permissions.focus.bullet.instant" = "Välittömät päivitykset, kun tila muuttuu";
-"onboarding.permissions.focus.description" = "Salli Home Assistantiin lähetettävä tieto siitä, että oletko tarkennustilassa.";
+"onboarding.permissions.focus.description" = "Salli MySmartHomesiin lähetettävä tieto siitä, että oletko tarkennustilassa.";
 "onboarding.permissions.focus.grant_description" = "Salli keskittymistilan käyttöoikeuden luoda sensoreita nykyiselle keskittymistilalle, kuten älä häiritse.";
 "onboarding.permissions.focus.title" = "Keskity";
 "onboarding.permissions.location.bullet.automations" = "Läsnäoloon perustuvat automaatiot";
@@ -456,27 +456,27 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.motion.bullet.activity" = "Sensori nykyiselle aktiviteetille";
 "onboarding.permissions.motion.bullet.distance" = "Anturi siirrettyä etäisyyttä varten";
 "onboarding.permissions.motion.bullet.steps" = "Anturi askelmäärälle";
-"onboarding.permissions.motion.description" = "Salli liikkumisaktiivisuuden ja askelmittaritietojen lähettäminen Home Assistantille";
+"onboarding.permissions.motion.description" = "Salli liikkumisaktiivisuuden ja askelmittaritietojen lähettäminen MySmartHomesille";
 "onboarding.permissions.motion.grant_description" = "Salli liikkeen käyttöoikeuden luoda sensorit liikkeelle ja askelmittaritiedoille.";
 "onboarding.permissions.motion.title" = "Liike & askelmittari";
 "onboarding.permissions.notification.bullet.alert" = "Vastaanota hälytyksiä ilmoituksista";
 "onboarding.permissions.notification.bullet.badge" = "Päivitä sovelluksen ikonin merkki";
 "onboarding.permissions.notification.bullet.commands" = "Lähetä komentoja laitteeseesi";
-"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen Home Assistantilta";
+"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen MySmartHomesilta";
 "onboarding.permissions.notification.grant_description" = "Salli ilmoitusten käyttöoikeuden luoda ilmoituspalvelu laitteellesi.";
 "onboarding.permissions.notification.title" = "Ilmoitukset";
 "onboarding.scanning.discovered_announcement" = "Löydetty: %@";
 "onboarding.scanning.manual" = "Syötä osoite manuaalisesti";
 "onboarding.scanning.manual_hint" = "Etkö löydä palvelinta?";
 "onboarding.scanning.title" = "Etsitään palvelimia";
-"onboarding.welcome.description" = "Tämä sovellus yhdistää Home Assistant -palvelimeesi ja mahdollistaa tietojen integroinnin sinusta ja puhelimestasi.\
+"onboarding.welcome.description" = "Tämä sovellus yhdistää MySmartHomes -palvelimeesi ja mahdollistaa tietojen integroinnin sinusta ja puhelimestasi.\
 \
-Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka painottaa paikallista hallinnoitavuutta ja yksityisyyttä.";
+MySmartHomes on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka painottaa paikallista hallinnoitavuutta ja yksityisyyttä.";
 "onboarding.welcome.learn_more" = "Lisätietoja";
-"onboarding.welcome.title" = "Tervetuloa Home Assistantiin %@!";
+"onboarding.welcome.title" = "Tervetuloa MySmartHomesiin %@!";
 "open_label" = "Avaa";
 "permission.screen.bluetooth.secondary_button" = "Skip";
-"permission.screen.bluetooth.subtitle" = "The Home Assistant app can find devices using Bluetooth of this device. Allow Bluetooth access for the Home Assistant app.";
+"permission.screen.bluetooth.subtitle" = "The MySmartHomes app can find devices using Bluetooth of this device. Allow Bluetooth access for the MySmartHomes app.";
 "permission.screen.bluetooth.title" = "Search devices";
 "preview_output" = "Tuloksen esikatselu";
 "reload_label" = "Reload";
@@ -504,7 +504,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Ulkoinen URL-osoite";
 "settings.connection_section.header" = "Yhteys";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "Esim. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Requires setup";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "To use internal URL you need to specify your Wifi network name (SSID) or hardware addresses, otherwise the App will always default to external URL.";
@@ -518,7 +518,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.connection_section.internal_url_ssids.footer" = "Sisäistä URL-osoitetta käytetään, kun on yhteys listattuihin SSID-tunnuksiin";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MinunHupaisaVerkkoNimi";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the MySmartHomes server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Tarkka";
 "settings.connection_section.location_send_type.setting.never" = "Ei koskaan";
 "settings.connection_section.location_send_type.setting.zone_only" = "Vain alueen nimi";
@@ -548,7 +548,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.debugging.header.title" = "Debug";
 "settings.debugging.shake_disclaimer.title" = "Now when you shake the app you can access debug features.";
 "settings.debugging.shake_disclaimer_optional.title" = "Shake the App to open debug";
-"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in Home Assistant or delete from Keychain.";
+"settings.debugging.thread.footer" = "Check what Thread credentials are inside Apple Keychain, you can also import in MySmartHomes or delete from Keychain.";
 "settings.debugging.title" = "Vianmääritys";
 "settings.details_section.location_settings_row.title" = "Sijainti";
 "settings.details_section.notification_settings_row.title" = "Ilmoitukset";
@@ -582,7 +582,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.location_history.title" = "Sijaintihistoria";
 "settings.navigation_bar.about_button.title" = "Tietoja";
 "settings.navigation_bar.title" = "Asetukset";
-"settings.reset_section.reset_alert.message" = "Asetuksesi nollataan ja tämä laite poistetaan push-ilmoituksista sekä poistetaan Home Assistant-asennuksista.";
+"settings.reset_section.reset_alert.message" = "Asetuksesi nollataan ja tämä laite poistetaan push-ilmoituksista sekä poistetaan MySmartHomes-asennuksista.";
 "settings.reset_section.reset_alert.progress_message" = "Nollataan…";
 "settings.reset_section.reset_alert.title" = "Palauta";
 "settings.reset_section.reset_app.title" = "Reset App (Remove servers and data)";
@@ -591,7 +591,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.server_select.page_title" = "Palvelin";
 "settings.server_select.title" = "Palvelin";
 "settings.status_section.header" = "Tila";
-"settings.status_section.location_name_row.placeholder" = "Minun Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Minun MySmartHomes";
 "settings.status_section.location_name_row.title" = "Nimi";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versio";
@@ -636,7 +636,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Vihreä";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Vanha beta";
 "settings_details.general.app_icon.enum.old_dev" = "Ohjelmoiden vanha";
 "settings_details.general.app_icon.enum.old_release" = "Vanha julkaisu";
@@ -774,7 +774,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings_details.notifications.title" = "Ilmoitukset";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Hälytykset";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your MySmartHomes URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytiikka";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -818,7 +818,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with MySmartHomes";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Verkkoavain";
@@ -830,7 +830,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "thread.store_in_keychain.error.message" = "Failed to store thread credential in keychain, error: %@";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Siirrä Apple-Avainnippuun";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to MySmartHomes";
 "token_error.connection_failed" = "Yhteys epäonnistui.";
 "token_error.expired" = "Poletti on vanhentunut.";
 "token_error.token_unavailable" = "Polettia ei ole käytettävissä.";
@@ -1090,7 +1090,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "widgets.action.name.navigate" = "Navigate";
 "widgets.action.name.nothing" = "Nothing";
 "widgets.action.name.run_script" = "Run Script";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform MySmartHomes actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.parameters.action" = "Toiminto";
 "widgets.actions.title" = "Toiminnot";
@@ -1099,7 +1099,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Määrittele";
 "widgets.button.reload_timeline" = "Lataa widgetit uudelleen";
-"widgets.controls.assist.description" = "Avaa Assist Home Assistant -sovelluksessa";
+"widgets.controls.assist.description" = "Avaa Assist MySmartHomes -sovelluksessa";
 "widgets.controls.assist.pipeline.placeholder" = "Choose a pipeline";
 "widgets.controls.assist.title" = "Assist";
 "widgets.controls.cover.description" = "Toggle cover";
@@ -1130,8 +1130,8 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "widgets.custom.show_update_time.title" = "Last update:";
 "widgets.custom.subtitle" = "Create widgets with your own style";
 "widgets.custom.title" = "Custom widgets";
-"widgets.details.description" = "Display states using from Home Assistant in text";
-"widgets.details.description_with_warning" = "Display states using from Home Assistant in text. ATTENTION: User needs to be admin for templating access";
+"widgets.details.description" = "Display states using from MySmartHomes in text";
+"widgets.details.description_with_warning" = "Display states using from MySmartHomes in text. ATTENTION: User needs to be admin for templating access";
 "widgets.details.parameters.action" = "Toiminto";
 "widgets.details.parameters.details_template" = "Details Text Template (only in rectangular family)";
 "widgets.details.parameters.lower_template" = "Lower Text Template";
@@ -1140,8 +1140,8 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "widgets.details.parameters.upper_template" = "Upper Text Template";
 "widgets.details.title" = "Yksityiskohdat";
 "widgets.entity_state.placeholder" = "Entity state";
-"widgets.gauge.description" = "Home Assistantin numeeristen tilojen näyttäminen mittarissa";
-"widgets.gauge.description_with_warning" = "Display numeric states from Home Assistant in a gauge. ATTENTION: User needs to be admin for templating access";
+"widgets.gauge.description" = "MySmartHomesin numeeristen tilojen näyttäminen mittarissa";
+"widgets.gauge.description_with_warning" = "Display numeric states from MySmartHomes in a gauge. ATTENTION: User needs to be admin for templating access";
 "widgets.gauge.parameters.action" = "Toiminto";
 "widgets.gauge.parameters.gauge_type" = "Mittarin tyyppi";
 "widgets.gauge.parameters.gauge_type.capacity" = "Capacity";
@@ -1154,7 +1154,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "widgets.gauge.parameters.value_template" = "Value Template (0-1)";
 "widgets.gauge.title" = "Mittari";
 "widgets.lights.description" = "Kytke valo päälle/pois";
-"widgets.open_page.description" = "Avaa käyttöliittymäsivu Home Assistantissa.";
+"widgets.open_page.description" = "Avaa käyttöliittymäsivu MySmartHomesissa.";
 "widgets.open_page.not_configured" = "Sivuja ei saatavilla";
 "widgets.open_page.title" = "Avaa sivu";
 "widgets.preview.custom.description" = "Create your own widget inside the App and then display it here.";

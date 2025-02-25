@@ -14,7 +14,7 @@ public extension URL {
     func isEqualIgnoringQueryParams(to otherURL: URL) -> Bool {
         baseIsEqual(to: otherURL) &&
             (path == otherURL.path || path == "\(otherURL.path)/0")
-        // Workaround for Home Assistant behavior where /0 is added to the end
+        // Workaround for MySmartHomes behavior where /0 is added to the end
     }
 
     // port will be removed if 80 or 443 by WKWebView, so we provide defaults for comparison

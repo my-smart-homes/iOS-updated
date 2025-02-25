@@ -30,7 +30,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
-               BuildableName = "Home Assistant.app"
+               BuildableName = "MySmartHomes.app"
                BlueprintName = "App"
                ReferencedContainer = "container:HomeAssistant.xcodeproj">
             </BuildableReference>
@@ -61,13 +61,13 @@
       <RemoteRunnable
          runnableDebuggingMode = "0"
          BundleIdentifier = "io.robbie.HomeAssistant.dev"
-         RemotePath = "/var/containers/Bundle/Application/98CE04EB-7B3D-4A90-B46E-8522E87FB5E6/Home Assistant &#x394;.app">
+         RemotePath = "/var/containers/Bundle/Application/98CE04EB-7B3D-4A90-B46E-8522E87FB5E6/MySmartHomes &#x394;.app">
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
+            BuildableName = "MySmartHomes.app"
             BlueprintName = "App"
             ReferencedContainer = "container:HomeAssistant.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
+            BuildableName = "MySmartHomes.app"
             BlueprintName = "App"
             ReferencedContainer = "container:HomeAssistant.xcodeproj">
          </BuildableReference>

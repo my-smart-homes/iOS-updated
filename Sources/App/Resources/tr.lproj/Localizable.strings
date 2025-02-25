@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Sorun İzleyici";
 "about.help_localize.title" = "Uygulamayı yerelleştirmeye yardımcı olun!";
-"about.home_assistant_on_facebook.title" = "Facebook'ta Home Assistant";
-"about.home_assistant_on_twitter.title" = "Twitter'da Home Assistant";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Facebook'ta MySmartHomes";
+"about.home_assistant_on_twitter.title" = "Twitter'da MySmartHomes";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "Evinizi Uyandırın";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Yorum bırakın";
 "about.title" = "Hakkında";
 "about.website.title" = "Web sitesi";
@@ -35,7 +35,7 @@
 "alert.confirmation.delete_entities.message" = "Bu, veritabanınızdaki varlıkları temizleyecek ve yalnızca uygulamayı sıfırdan açtığınızda yeniden yüklenecektir.";
 "alert.confirmation.generic.title" = "Emin misin?";
 "alerts.action_automation_editor.unavailable.body" = "Bir Eylem için otomatik olarak otomasyon oluşturmak üzere lütfen Home Asistanınızı en az 2024.2 sürümüne güncelleyin.";
-"alerts.action_automation_editor.unavailable.title" = "Lütfen Home Assistant'ı güncelleyin";
+"alerts.action_automation_editor.unavailable.title" = "Lütfen MySmartHomes'ı güncelleyin";
 "alerts.alert.ok" = "Tamam";
 "alerts.auth_required.message" = "Sunucu kimlik bilgilerinizi reddetti ve devam etmek için tekrar oturum açmanız gerekiyor.";
 "alerts.auth_required.title" = "Devam etmek için giriş yapınız";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Açıklama";
 "connection.error.details.label.domain" = "Etki Alanı";
 "connection.error.details.title" = "Bağlantı hatası";
-"connection.error.failed_connect.cloud.title" = "Home Assistant Bulut aboneliğinizin aktif olduğundan ve sunucunuza bağlı olduğundan emin olun, bunu [Nabu Casa](https://account.nabucasa.com) adresinden doğrulayabilirsiniz.";
-"connection.error.failed_connect.cloud_inactive.title" = "Uygulamada Home Assistant Bulut kullanımını devre dışı bıraktınız, uzaktan erişim için ihtiyacınız varsa lütfen yardımcı uygulama ayarlarını açın ve etkinleştirin.";
+"connection.error.failed_connect.cloud.title" = "MySmartHomes Bulut aboneliğinizin aktif olduğundan ve sunucunuza bağlı olduğundan emin olun, bunu [Nabu Casa](https://account.nabucasa.com) adresinden doğrulayabilirsiniz.";
+"connection.error.failed_connect.cloud_inactive.title" = "Uygulamada MySmartHomes Bulut kullanımını devre dışı bıraktınız, uzaktan erişim için ihtiyacınız varsa lütfen yardımcı uygulama ayarlarını açın ve etkinleştirin.";
 "connection.error.failed_connect.subtitle" = "Bağlantınızı kontrol edin ve tekrar deneyin. Evde değilseniz uzaktan erişimi yapılandırdığınızdan emin olun.";
-"connection.error.failed_connect.title" = "Home Assistant'a bağlanamadık";
+"connection.error.failed_connect.title" = "MySmartHomes'a bağlanamadık";
 "connection.error.failed_connect.url" = "Uygulama şu anda bağlanıyor";
 "connection.error.generic_title" = "Eyvah! Görünüşe göre bir bağlantı kuramıyoruz.";
-"connection.permission.internal_url.body1" = "Home Assistant'a yerel olarak güvenli bir şekilde erişmek için konum iznini ('Her Zaman') vermeniz gerekir.";
-"connection.permission.internal_url.body2" = "Bu izin, Home Assistant'ın bağlı olduğunuz kablosuz ağı algılamasını ve yerel bir bağlantı kurmasını sağlar.";
-"connection.permission.internal_url.body3" = "Konumunuzun Home Assistant ile paylaşılıp paylaşılmadığı her zaman kontrol sizdedir. Bu ayarları, eşlik eden uygulama ayar ekranında değiştirebilirsiniz.";
+"connection.permission.internal_url.body1" = "MySmartHomes'a yerel olarak güvenli bir şekilde erişmek için konum iznini ('Her Zaman') vermeniz gerekir.";
+"connection.permission.internal_url.body2" = "Bu izin, MySmartHomes'ın bağlı olduğunuz kablosuz ağı algılamasını ve yerel bir bağlantı kurmasını sağlar.";
+"connection.permission.internal_url.body3" = "Konumunuzun MySmartHomes ile paylaşılıp paylaşılmadığı her zaman kontrol sizdedir. Bu ayarları, eşlik eden uygulama ayar ekranında değiştirebilirsiniz.";
 "connection.permission.internal_url.button_configure" = "Yerel erişimi yapılandırın";
 "connection.permission.internal_url.button_ignore" = "Ne yaptığımı biliyorum. İzin erişimi olmadan yerel bağlantılara izin ver.";
 "connection.permission.internal_url.footer" = "Yine de yerel URL'yi kullanmak istiyorsanız ve konum izni vermek istemiyorsanız, aşağıdaki butona dokunabilirsiniz, ancak lütfen güvenlik risklerinin farkında olun.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 sağa kaydırın";
 "gestures.3_fingers_swipe_up.title" = "3 👆 yukarı kaydırın";
 "gestures.footer.title" = "Önyüzde kullanılacak hareketleri özelleştirin.";
-"gestures.screen.body" = "Aşağıdaki hareketler Home Assistant ana kullanıcı arayüzünü kullandığınızda uygulanacaktır.";
+"gestures.screen.body" = "Aşağıdaki hareketler MySmartHomes ana kullanıcı arayüzünü kullandığınızda uygulanacaktır.";
 "gestures.screen.title" = "Hareket";
 "gestures.shake.title" = "Salla";
 "gestures.swipe_left.title" = "Sola Kaydır";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Veritabanına (GRDB) erişilemedi, hata: %@";
 "grdb.config.migration_error.failed_to_save" = "Yeni yapılandırma kaydedilemedi, hata: %@";
 "ha_api.api_error.cant_build_url" = "API URL'si oluşturulamaz";
-"ha_api.api_error.invalid_response" = "Home Assistant'dan geçersiz yanıt alındı";
+"ha_api.api_error.invalid_response" = "MySmartHomes'dan geçersiz yanıt alındı";
 "ha_api.api_error.manager_not_available" = "HA API Yöneticisi kullanılamıyor";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app bileşeni yüklü değil. Lütfen yapılandırmanıza ekleyin, Home Assistant'ı yeniden başlatın ve tekrar deneyin.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant sürümünüz ( %@ ) çok eski, uygulamayı kullanmak için en az %@ sürümüne yükseltmelisiniz.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app bileşeni yüklü değil. Lütfen yapılandırmanıza ekleyin, MySmartHomes'ı yeniden başlatın ve tekrar deneyin.";
+"ha_api.api_error.must_upgrade_home_assistant" = "MySmartHomes sürümünüz ( %@ ) çok eski, uygulamayı kullanmak için en az %@ sürümüne yükseltmelisiniz.";
 "ha_api.api_error.no_available_api" = "API mevcut değil, dahili URL veya harici URL'nin mevcut olup olmadığını iki kez kontrol edin.";
 "ha_api.api_error.not_configured" = "HA API yapılandırılmadı";
 "ha_api.api_error.unacceptable_status_code" = "Kabul edilemez durum kodu %1$li .";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Simge rengi";
 "magic_item.icon_name.title" = "Simge adı";
 "magic_item.item_type.action.list.title" = "iOS Eylemleri";
-"magic_item.item_type.action.list.warning.title" = "Gelecekte iOS Actions desteğini durduracağız, lütfen bunun yerine Home Assistant komut dosyalarını veya sahnelerini kullanmayı düşünün.";
+"magic_item.item_type.action.list.warning.title" = "Gelecekte iOS Actions desteğini durduracağız, lütfen bunun yerine MySmartHomes komut dosyalarını veya sahnelerini kullanmayı düşünün.";
 "magic_item.item_type.app.list.title" = "Uygulama";
 "magic_item.item_type.entity.list.title" = "Varlık";
 "magic_item.item_type.scene.list.title" = "Sahneler";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Etiketi Oku";
 "nfc.list.description" = "Uygulama tarafından yazılan NFC etiketleri, cihazınızı yanlarına getirdiğinizde bir bildirim gösterecektir. Bildirimi etkinleştirmek, uygulamayı başlatır ve bir etkinliği tetikler. \
 \
- Etiketler, onları okumak için donanım desteğine sahip olan Home Assistant yüklü herhangi bir cihazda çalışacaktır.";
+ Etiketler, onları okumak için donanım desteğine sahip olan MySmartHomes yüklü herhangi bir cihazda çalışacaktır.";
 "nfc.list.learn_more" = "Daha fazla bilgi edinin";
 "nfc.list.read_tag" = "Etiketi Oku";
 "nfc.list.title" = "NFC Etiketleri";
 "nfc.list.write_tag" = "Etiket Yaz";
 "nfc.not_available" = "NFC bu cihazda kullanılamaz";
 "nfc.read.error.generic_failure" = "Etiket okunamadı";
-"nfc.read.error.not_home_assistant" = "NFC etiketi, Home Assistant etiketi değil";
+"nfc.read.error.not_home_assistant" = "NFC etiketi, MySmartHomes etiketi değil";
 "nfc.read.error.tag_invalid" = "NFC etiketi geçersiz";
 "nfc.read.start_message" = "%@'lerinizi bir NFC etiketinin yakınında tutun";
 "nfc.tag_read" = "NFC Etiketi Okuma";
@@ -385,7 +385,7 @@
 "notification_service.parser.camera.invalid_entity" = "Sağlanan varlık_kimliği geçersizdi.";
 "notification_service.parser.url.invalid_url" = "Verilen URL geçersizdi.";
 "notification_service.parser.url.no_url" = "URL sağlanmadı.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Kullanıcı bu seçenekle bir eylem seçtiğinde, sistem kullanıcıdan cihazın kilidini açmasını ister. Kilidi açtıktan sonra, Home Assistant seçilen eylem hakkında bilgilendirilecektir.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Kullanıcı bu seçenekle bir eylem seçtiğinde, sistem kullanıcıdan cihazın kilidini açmasını ister. Kilidi açtıktan sonra, MySmartHomes seçilen eylem hakkında bilgilendirilecektir.";
 "notifications_configurator.action.rows.authentication_required.title" = "Kimlik doğrulama istendi";
 "notifications_configurator.action.rows.destructive.footer" = "Etkinleştirildiğinde, yıkıcı bir görev gerçekleştirdiğini belirtmek için eylem düğmesi özel vurgulama ile görüntülenir.";
 "notifications_configurator.action.rows.destructive.title" = "Yıkıcı";
@@ -435,7 +435,7 @@
 "onboarding.manual_setup.connect" = "Bağlan";
 "onboarding.manual_setup.couldnt_make_url.message" = "\" %@ \" değeri geçerli bir URL değildi.";
 "onboarding.manual_setup.couldnt_make_url.title" = "URL oluşturulamadı";
-"onboarding.manual_setup.description" = "Home Assistant sunucunuzun URL'si. Protokolü ve bağlantı noktasını içerdiğinden emin olun.";
+"onboarding.manual_setup.description" = "MySmartHomes sunucunuzun URL'si. Protokolü ve bağlantı noktasını içerdiğinden emin olun.";
 "onboarding.manual_setup.no_scheme.message" = "Http: // veya https: // kullanarak bağlanmayı denemeli miyiz?";
 "onboarding.manual_setup.no_scheme.title" = "Şema olmadan girilen URL";
 "onboarding.manual_setup.title" = "URL girin";
@@ -456,7 +456,7 @@
 "onboarding.permissions.motion.bullet.activity" = "Mevcut aktivite türü için sensör";
 "onboarding.permissions.motion.bullet.distance" = "Hareket mesafesi sensörü";
 "onboarding.permissions.motion.bullet.steps" = "Adım sayısı sensörü";
-"onboarding.permissions.motion.description" = "Hareket etkinliği ve adımsayar verilerinin Home Assistant'a gönderilmesine izin verin";
+"onboarding.permissions.motion.description" = "Hareket etkinliği ve adımsayar verilerinin MySmartHomes'a gönderilmesine izin verin";
 "onboarding.permissions.motion.grant_description" = "Hareket ve adımsayar verileri için sensörler oluşturmak üzere hareket iznine izin verin.";
 "onboarding.permissions.motion.title" = "Hareket ve Adımsayar";
 "onboarding.permissions.notification.bullet.alert" = "Bildirimlerden uyarı alın";
@@ -469,14 +469,14 @@
 "onboarding.scanning.manual" = "Adresi El ile Girin";
 "onboarding.scanning.manual_hint" = "Sunucunuzu bulamıyor musunuz?";
 "onboarding.scanning.title" = "Sunucular için Tarama";
-"onboarding.welcome.description" = "Bu uygulama, Home Assistant sunucunuza bağlanır ve siz ve telefonunuz hakkındaki verilerin entegre edilmesini sağlar. \
+"onboarding.welcome.description" = "Bu uygulama, MySmartHomes sunucunuza bağlanır ve siz ve telefonunuz hakkındaki verilerin entegre edilmesini sağlar. \
 \
- Home Assistant, yerel kontrol ve gizliliğe odaklanan ücretsiz ve açık kaynaklı bir ev otomasyon yazılımıdır.";
+ MySmartHomes, yerel kontrol ve gizliliğe odaklanan ücretsiz ve açık kaynaklı bir ev otomasyon yazılımıdır.";
 "onboarding.welcome.learn_more" = "Daha fazla bilgi edin";
-"onboarding.welcome.title" = "Home Assistant'a Hoş Geldiniz %@!";
+"onboarding.welcome.title" = "MySmartHomes'a Hoş Geldiniz %@!";
 "open_label" = "Açık";
 "permission.screen.bluetooth.secondary_button" = "Atla";
-"permission.screen.bluetooth.subtitle" = "Home Assistant uygulaması bu cihazın Bluetooth'unu kullanarak cihazları bulabilir. Home Assistant uygulaması için Bluetooth erişimine izin verin.";
+"permission.screen.bluetooth.subtitle" = "MySmartHomes uygulaması bu cihazın Bluetooth'unu kullanarak cihazları bulabilir. MySmartHomes uygulaması için Bluetooth erişimine izin verin.";
 "permission.screen.bluetooth.title" = "Cihaz ara";
 "preview_output" = "Önizleme Çıktısı";
 "reload_label" = "Tekrar yükle";
@@ -504,7 +504,7 @@
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Harici bağlantı URL'si";
 "settings.connection_section.header" = "Bağlantı";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "örn. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Kurulum gerektirir";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "Dahili URL'yi kullanmak için Wifi ağ adınızı (SSID) veya donanım adreslerinizi belirtmeniz gerekir, aksi takdirde Uygulama her zaman varsayılan olarak harici URL'yi kullanacaktır.";
@@ -518,7 +518,7 @@
 "settings.connection_section.internal_url_ssids.footer" = "Listelenen SSID'lere bağlanıldığında dahili URL kullanılacaktır";
 "settings.connection_section.internal_url_ssids.header" = "SSID'lerin";
 "settings.connection_section.internal_url_ssids.placeholder" = "BenimNetworkAdim";
-"settings.connection_section.local_push_description" = "Dahili SSID'lerdeyken anında bildirimler için doğrudan Home Assistant sunucusuna bağlanın.";
+"settings.connection_section.local_push_description" = "Dahili SSID'lerdeyken anında bildirimler için doğrudan MySmartHomes sunucusuna bağlanın.";
 "settings.connection_section.location_send_type.setting.exact" = "Bire bir aynı";
 "settings.connection_section.location_send_type.setting.never" = "Asla";
 "settings.connection_section.location_send_type.setting.zone_only" = "Yalnızca Bölge Adı";
@@ -548,7 +548,7 @@
 "settings.debugging.header.title" = "Hata ayıklama";
 "settings.debugging.shake_disclaimer.title" = "Artık uygulamayı salladığınızda hata ayıklama özelliklerine erişebileceksiniz.";
 "settings.debugging.shake_disclaimer_optional.title" = "Hata ayıklamayı açmak için uygulamayı sallayın";
-"settings.debugging.thread.footer" = "Apple Anahtar Zinciri'nin içerisinde Thread kimlik bilgilerinin ne olduğunu kontrol edin, ayrıca Home Assistant'a aktarabilir veya Anahtar Zinciri'nden silebilirsiniz.";
+"settings.debugging.thread.footer" = "Apple Anahtar Zinciri'nin içerisinde Thread kimlik bilgilerinin ne olduğunu kontrol edin, ayrıca MySmartHomes'a aktarabilir veya Anahtar Zinciri'nden silebilirsiniz.";
 "settings.debugging.title" = "Hata ayıklama";
 "settings.details_section.location_settings_row.title" = "Konum";
 "settings.details_section.notification_settings_row.title" = "Bildirimler";
@@ -636,7 +636,7 @@
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrikli Menekşe";
 "settings_details.general.app_icon.enum.fire_orange" = "Ateş Turuncusu";
 "settings_details.general.app_icon.enum.green" = "Yeşil";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Mavi";
+"settings_details.general.app_icon.enum.ha_blue" = "MySmartHomes Mavi";
 "settings_details.general.app_icon.enum.old_beta" = "Eski Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Eski Geliştirme";
 "settings_details.general.app_icon.enum.old_release" = "Eski sürüm";
@@ -1090,7 +1090,7 @@
 "widgets.action.name.navigate" = "Gezin";
 "widgets.action.name.nothing" = "Hiçbir şey";
 "widgets.action.name.run_script" = "Senaryoyu çalıştır";
-"widgets.actions.description" = "Home Assistant eylemlerini gerçekleştirin.";
+"widgets.actions.description" = "MySmartHomes eylemlerini gerçekleştirin.";
 "widgets.actions.not_configured" = "Yapılandırılmış aksiyon Yok";
 "widgets.actions.parameters.action" = "Eylem";
 "widgets.actions.title" = "Aksiyonlar";
@@ -1099,7 +1099,7 @@
 "widgets.assist.title" = "Asistan";
 "widgets.assist.unknown_configuration" = "Yapılandır";
 "widgets.button.reload_timeline" = "Tüm widget'ları yeniden yükle";
-"widgets.controls.assist.description" = "Home Assistant uygulamasında Assist'i açın";
+"widgets.controls.assist.description" = "MySmartHomes uygulamasında Assist'i açın";
 "widgets.controls.assist.pipeline.placeholder" = "Bir işlem hattı seçin";
 "widgets.controls.assist.title" = "Asistan";
 "widgets.controls.cover.description" = "Kapağı aç/kapat";
@@ -1131,7 +1131,7 @@
 "widgets.custom.subtitle" = "Kendi stilinizle widget'lar yaratın";
 "widgets.custom.title" = "Kişiselleştirilmiş widget'lar";
 "widgets.details.description" = "Metinde Home Asistanı'nın kullanıldığı durumları görüntüleme";
-"widgets.details.description_with_warning" = "Home Assistant'tan metinde durumları görüntüle. DİKKAT: Şablon erişimi için kullanıcının yönetici olması gerekir";
+"widgets.details.description_with_warning" = "MySmartHomes'tan metinde durumları görüntüle. DİKKAT: Şablon erişimi için kullanıcının yönetici olması gerekir";
 "widgets.details.parameters.action" = "Eylem";
 "widgets.details.parameters.details_template" = "Ayrıntılar Metin Şablonu (yalnızca dikdörtgen ailede)";
 "widgets.details.parameters.lower_template" = "Alt Metin Şablonu";
@@ -1140,8 +1140,8 @@
 "widgets.details.parameters.upper_template" = "Üst Metin Şablonu";
 "widgets.details.title" = "Ayrıntılar";
 "widgets.entity_state.placeholder" = "Varlık durumu";
-"widgets.gauge.description" = "Home Assistant'taki sayısal durumları bir göstergede görüntüleyin";
-"widgets.gauge.description_with_warning" = "Home Assistant'tan sayısal durumları bir göstergede görüntüleyin. DİKKAT: Şablon erişimi için kullanıcının yönetici olması gerekir";
+"widgets.gauge.description" = "MySmartHomes'taki sayısal durumları bir göstergede görüntüleyin";
+"widgets.gauge.description_with_warning" = "MySmartHomes'tan sayısal durumları bir göstergede görüntüleyin. DİKKAT: Şablon erişimi için kullanıcının yönetici olması gerekir";
 "widgets.gauge.parameters.action" = "Eylem";
 "widgets.gauge.parameters.gauge_type" = "Gösterge Tipi";
 "widgets.gauge.parameters.gauge_type.capacity" = "Kapasite";
@@ -1154,7 +1154,7 @@
 "widgets.gauge.parameters.value_template" = "Değer Şablonu (0-1)";
 "widgets.gauge.title" = "Gösterge";
 "widgets.lights.description" = "Işığı aç/kapat";
-"widgets.open_page.description" = "Home Assistant'ta bir ön sayfası açın.";
+"widgets.open_page.description" = "MySmartHomes'ta bir ön sayfası açın.";
 "widgets.open_page.not_configured" = "Kullanılabilir Sayfa Yok";
 "widgets.open_page.title" = "Sayfayı Aç";
 "widgets.preview.custom.description" = "Uygulama içerisinde kendi widget'ınızı yaratın ve burada görüntüleyin.";

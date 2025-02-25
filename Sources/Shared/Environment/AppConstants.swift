@@ -5,7 +5,7 @@ import Version
 
 /// Contains shared constants
 public enum AppConstants {
-    /// Home Assistant Blue
+    /// MySmartHomes Blue
     public static var tintColor: UIColor {
         #if os(iOS)
         return UIColor { [lighterTintColor, darkerTintColor] (traitCollection: UITraitCollection) -> UIColor in

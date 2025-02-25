@@ -1,4 +1,4 @@
-Home Assistant for Apple Platforms
+MySmartHomes for Apple Platforms
 =================
 
 [![TestFlight Beta invite](https://img.shields.io/badge/TestFlight-Beta-blue.svg)](https://www.home-assistant.io/ios/beta/)
@@ -8,7 +8,7 @@ Home Assistant for Apple Platforms
 
 ## Getting Started
 
-Home Assistant uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 15.3 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
+MySmartHomes uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 15.3 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
 
 ```bash
 git clone https://github.com/home-assistant/iOS.git
@@ -129,4 +129,4 @@ Apache-2.0
 
 The format and some content of this README.md comes from the [SwipeIt](https://github.com/ivanbruel/SwipeIt) project.
 
-[![Home Assistant - A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/home-assistant.png)](https://www.openhomefoundation.org/)
+[![MySmartHomes - A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/home-assistant.png)](https://www.openhomefoundation.org/)

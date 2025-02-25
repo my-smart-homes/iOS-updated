@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Παρακολούθηση ζητημάτων GitHub";
 "about.help_localize.title" = "Βοηθήστε να μεταφραστεί η εφαρμογή!";
-"about.home_assistant_on_facebook.title" = "Το Home Assistant στο Facebook";
-"about.home_assistant_on_twitter.title" = "Το Home Assistant στο Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Το MySmartHomes στο Facebook";
+"about.home_assistant_on_twitter.title" = "Το MySmartHomes στο Twitter";
+"about.logo.app_title" = "MySmartHomes Companion";
 "about.logo.tagline" = "Ζωντανέψτε το σπίτι σας";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "MySmartHomes";
 "about.review.title" = "Αφήστε μια κριτική";
 "about.title" = "Σχετικά";
 "about.website.title" = "Ιστοσελίδα";
@@ -34,8 +34,8 @@
 "addButtonLabel" = "Προσθήκη";
 "alert.confirmation.delete_entities.message" = "Αυτό θα καθαρίσει τις οντότητές σας από τη βάση δεδομένων και θα ξαναφορτώσει μόνο την επόμενη φορά που θα ανοίξετε την εφαρμογή από το μηδέν.";
 "alert.confirmation.generic.title" = "Είστε σίγουρος/η;";
-"alerts.action_automation_editor.unavailable.body" = "Για να δημιουργήσετε αυτόματα έναν αυτοματισμό για μια ενέργεια, παρακαλώ ενημερώστε το Home Assistant τουλάχιστον στην έκδοση 2024.2.";
-"alerts.action_automation_editor.unavailable.title" = "Παρακαλώ ενημερώστε το Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Για να δημιουργήσετε αυτόματα έναν αυτοματισμό για μια ενέργεια, παρακαλώ ενημερώστε το MySmartHomes τουλάχιστον στην έκδοση 2024.2.";
+"alerts.action_automation_editor.unavailable.title" = "Παρακαλώ ενημερώστε το MySmartHomes";
 "alerts.alert.ok" = "Εντάξει";
 "alerts.auth_required.message" = "Ο διακομιστής απέρριψε τα διαπιστευτήριά σας και πρέπει να συνδεθείτε ξανά για να συνεχίσετε.";
 "alerts.auth_required.title" = "Πρέπει να συνδεθείτε για να συνεχίσετε";
@@ -133,7 +133,7 @@
 "carPlay.navigation.tab.domains" = "Ελεγχος";
 "carPlay.navigation.tab.quick_access" = "Γρήγορη πρόσβαση";
 "carPlay.navigation.tab.settings" = "Ρυθμίσεις";
-"carPlay.no_actions.title" = "Ανοίξτε το Home Assistant Companion για iOS για να δημιουργήσετε ενέργειες για το CarPlay.";
+"carPlay.no_actions.title" = "Ανοίξτε το MySmartHomes Companion για iOS για να δημιουργήσετε ενέργειες για το CarPlay.";
 "carPlay.no_entities.title" = "Δεν υπάρχουν διαθέσιμες οντότητες συμβατές με CarPlay.";
 "carPlay.notification.action.intro.body" = "Πατήστε για να δημιουργήσετε την πρώτη σας ενέργεια iOS";
 "carPlay.notification.action.intro.title" = "Δημιουργία ενέργειας iOS";
@@ -194,15 +194,15 @@
 "connection.error.details.label.description" = "Περιγραφή";
 "connection.error.details.label.domain" = "Τομέας";
 "connection.error.details.title" = "Σφάλμα σύνδεσης";
-"connection.error.failed_connect.cloud.title" = "Βεβαιωθείτε ότι η συνδρομή σας στο Home Assistant Cloud είναι ενεργή και συνδεδεμένη στο διακομιστή σας, μπορείτε να το ελέγξετε στο [Nabu Casa](https://account.nabucasa.com)";
-"connection.error.failed_connect.cloud_inactive.title" = "Εχετε απενεργοποιήσει τη χρήση του Home Assistant Cloud στην εφαρμογή, αν το χρειάζεστε για απομακρυσμένη πρόσβαση, ανοίξτε τις ρυθμίσεις της εφαρμογής companion και ενεργοποιήστε το.";
+"connection.error.failed_connect.cloud.title" = "Βεβαιωθείτε ότι η συνδρομή σας στο MySmartHomes Cloud είναι ενεργή και συνδεδεμένη στο διακομιστή σας, μπορείτε να το ελέγξετε στο [Nabu Casa](https://account.nabucasa.com)";
+"connection.error.failed_connect.cloud_inactive.title" = "Εχετε απενεργοποιήσει τη χρήση του MySmartHomes Cloud στην εφαρμογή, αν το χρειάζεστε για απομακρυσμένη πρόσβαση, ανοίξτε τις ρυθμίσεις της εφαρμογής companion και ενεργοποιήστε το.";
 "connection.error.failed_connect.subtitle" = "Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά. Εάν δεν βρίσκεστε στο σπίτι σας, βεβαιωθείτε ότι έχετε ρυθμίσει την απομακρυσμένη πρόσβαση.";
-"connection.error.failed_connect.title" = "Δεν ήταν δυνατή η σύνδεση με το Home Assistant";
+"connection.error.failed_connect.title" = "Δεν ήταν δυνατή η σύνδεση με το MySmartHomes";
 "connection.error.failed_connect.url" = "Η εφαρμογή συνδέεται προς το παρόν με";
 "connection.error.generic_title" = "Ωχ! Φαίνεται ότι δεν μπορούμε να δημιουργήσουμε μια σύνδεση.";
-"connection.permission.internal_url.body1" = "Για να αποκτήσετε τοπικά πρόσβαση στο Home Assistant με ασφαλή τρόπο, πρέπει να εκχωρήσετε την άδεια τοποθεσίας (\"Πάντα\").";
-"connection.permission.internal_url.body2" = "Αυτό το δικαίωμα επιτρέπει στο Home Assistant να εντοπίσει το ασύρματο δίκτυο στο οποίο είστε συνδεδεμένοι και να δημιουργήσει μια τοπική σύνδεση.";
-"connection.permission.internal_url.body3" = "Εχετε πάντα τον έλεγχο εάν η τοποθεσία σας μοιράζεται με το Home Assistant. Μπορείτε να αλλάξετε αυτές τις ρυθμίσεις στην οθόνη ρυθμίσεων της εφαρμογής companion.";
+"connection.permission.internal_url.body1" = "Για να αποκτήσετε τοπικά πρόσβαση στο MySmartHomes με ασφαλή τρόπο, πρέπει να εκχωρήσετε την άδεια τοποθεσίας (\"Πάντα\").";
+"connection.permission.internal_url.body2" = "Αυτό το δικαίωμα επιτρέπει στο MySmartHomes να εντοπίσει το ασύρματο δίκτυο στο οποίο είστε συνδεδεμένοι και να δημιουργήσει μια τοπική σύνδεση.";
+"connection.permission.internal_url.body3" = "Εχετε πάντα τον έλεγχο εάν η τοποθεσία σας μοιράζεται με το MySmartHomes. Μπορείτε να αλλάξετε αυτές τις ρυθμίσεις στην οθόνη ρυθμίσεων της εφαρμογής companion.";
 "connection.permission.internal_url.button_configure" = "Διαμόρφωση τοπικής πρόσβασης";
 "connection.permission.internal_url.button_ignore" = "Ξέρω τι κάνω. Να επιτρέπονται τοπικές συνδέσεις χωρίς πρόσβαση με άδεια.";
 "connection.permission.internal_url.footer" = "Αν εξακολουθείτε να θέλετε να χρησιμοποιήσετε την τοπική διεύθυνση URL και δεν θέλετε να δώσετε άδεια τοποθεσίας, μπορείτε να πατήσετε το παρακάτω κουμπί, όμως παρακαλώ, λάβετε υπόψη τους κινδύνους ασφαλείας.";
@@ -241,7 +241,7 @@
 "gestures.3_fingers_swipe_right.title" = "3 👆 σύρετε προς τα δεξιά";
 "gestures.3_fingers_swipe_up.title" = "3 👆 σύρετε προς τα πάνω";
 "gestures.footer.title" = "Προσαρμόστε τις χειρονομίες που θα χρησιμοποιούνται στο frontend.";
-"gestures.screen.body" = "Οι παρακάτω χειρονομίες θα εφαρμόζονται κάθε φορά που χρησιμοποιείτε την κύρια διεπαφή χρήστη του Home Assistant.";
+"gestures.screen.body" = "Οι παρακάτω χειρονομίες θα εφαρμόζονται κάθε φορά που χρησιμοποιείτε την κύρια διεπαφή χρήστη του MySmartHomes.";
 "gestures.screen.title" = "Χειρονομίες";
 "gestures.shake.title" = "Κούνημα";
 "gestures.swipe_left.title" = "Σύρετε προς τα αριστερά";
@@ -258,10 +258,10 @@
 "grdb.config.migration_error.failed_access_grdb" = "Αποτυχία πρόσβασης στη βάση δεδομένων (GRDB), σφάλμα: %@";
 "grdb.config.migration_error.failed_to_save" = "Αποτυχία αποθήκευσης νέας διαμόρφωσης, σφάλμα: %@";
 "ha_api.api_error.cant_build_url" = "Δεν είναι δυνατή η δημιουργία URL API";
-"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το Home Assistant";
+"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το MySmartHomes";
 "ha_api.api_error.manager_not_available" = "Το HA API Manager δεν είναι διαθέσιμο";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Παρακαλώ προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του Home Assistant και δοκιμάστε ξανά.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του Home Assistant ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Παρακαλώ προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του MySmartHomes και δοκιμάστε ξανά.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του MySmartHomes ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
 "ha_api.api_error.no_available_api" = "Δεν υπάρχει διαθέσιμο API, ελέγξτε διπλά αν είναι διαθέσιμο το εσωτερικό URL ή το εξωτερικό URL.";
 "ha_api.api_error.not_configured" = "Το HA API δεν έχει διαμορφωθεί";
 "ha_api.api_error.unacceptable_status_code" = "Μη αποδεκτός κωδικός κατάστασης %1$li.";
@@ -324,7 +324,7 @@
 "magic_item.icon_color.title" = "Χρώμα εικονιδίου";
 "magic_item.icon_name.title" = "Ονομα εικονιδίου";
 "magic_item.item_type.action.list.title" = "Ενέργειες iOS";
-"magic_item.item_type.action.list.warning.title" = "Θα σταματήσουμε να υποστηρίζουμε τις Ενέργειες iOS στο μέλλον, παρακαλώ προτιμήστε να χρησιμοποιήσετε σενάρια ή σκηνές του Home Assistant.";
+"magic_item.item_type.action.list.warning.title" = "Θα σταματήσουμε να υποστηρίζουμε τις Ενέργειες iOS στο μέλλον, παρακαλώ προτιμήστε να χρησιμοποιήσετε σενάρια ή σκηνές του MySmartHomes.";
 "magic_item.item_type.app.list.title" = "Εφαρμογή";
 "magic_item.item_type.entity.list.title" = "Οντότητα";
 "magic_item.item_type.scene.list.title" = "Σκηνές";
@@ -358,14 +358,14 @@
 "nfc.generic_tag_read" = "Ανάγνωση tag";
 "nfc.list.description" = "Τα NFC tags που γράφονται από την εφαρμογή θα εμφανίζουν μια ειδοποίηση όταν φέρετε τη συσκευή σας κοντά τους. Η ενεργοποίηση της ειδοποίησης θα ξεκινήσει την εφαρμογή και θα πυροδοτήσει ένα συμβάν.\
 \
-Τα tags θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το Home Assistant που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
+Τα tags θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το MySmartHomes που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
 "nfc.list.learn_more" = "Μάθε περισσότερα";
 "nfc.list.read_tag" = "Ανάγνωση tag";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "Εγγραφή σε tag";
 "nfc.not_available" = "Το NFC δεν είναι διαθέσιμο σε αυτή τη συσκευή";
 "nfc.read.error.generic_failure" = "Αποτυχία ανάγνωσης tag";
-"nfc.read.error.not_home_assistant" = "Το NFC tag δεν είναι tag του Home Assistant";
+"nfc.read.error.not_home_assistant" = "Το NFC tag δεν είναι tag του MySmartHomes";
 "nfc.read.error.tag_invalid" = "Το NFC tag δεν είναι έγκυρο";
 "nfc.read.start_message" = "Κρατήστε το %@ κοντά σε ένα NFC tag";
 "nfc.tag_read" = "Ανάγνωση NFC tag";
@@ -385,7 +385,7 @@
 "notification_service.parser.camera.invalid_entity" = "Το  entity_id που δόθηκε δεν ήταν έγκυρο.";
 "notification_service.parser.url.invalid_url" = "Η διεύθυνση URL που δόθηκε δεν ήταν έγκυρη.";
 "notification_service.parser.url.no_url" = "Δεν δόθηκε διεύθυνση URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Οταν ο χρήστης επιλέξει μια ενέργεια με αυτή την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το Home Assistant θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Οταν ο χρήστης επιλέξει μια ενέργεια με αυτή την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το MySmartHomes θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
 "notifications_configurator.action.rows.authentication_required.title" = "Απαιτείται έλεγχος ταυτότητας";
 "notifications_configurator.action.rows.destructive.footer" = "Όταν ενεργοποιηθεί, το κουμπί ενέργειας εμφανίζεται με ειδική επισήμανση που υποδεικνύει ότι εκτελεί μια καταστροφική εργασία.";
 "notifications_configurator.action.rows.destructive.title" = "Καταστροφικό";
@@ -435,7 +435,7 @@
 "onboarding.manual_setup.connect" = "Σύνδεση";
 "onboarding.manual_setup.couldnt_make_url.message" = "Η τιμή '%@' δεν ήταν έγκυρη διεύθυνση URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Δεν ήταν δυνατή η δημιουργία διεύθυνσης URL";
-"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή Home Assistant. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
+"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή MySmartHomes. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
 "onboarding.manual_setup.no_scheme.message" = "Θα πρέπει να προσπαθήσουμε να συνδεθούμε χρησιμοποιώντας http:// ή https://;";
 "onboarding.manual_setup.no_scheme.title" = "Η διεύθυνση URL καταχωρήθηκε χωρίς σχήμα";
 "onboarding.manual_setup.title" = "Εισαγωγή διεύθυνσης URL";
@@ -444,7 +444,7 @@
 "onboarding.permissions.change_later_note" = "Μπορείτε να αλλάξετε αυτό το δικαίωμα αργότερα στις Ρυθμίσεις";
 "onboarding.permissions.focus.bullet.automations" = "Αυτοματισμοί βασισμένοι στην εστίαση";
 "onboarding.permissions.focus.bullet.instant" = "Άμεσες ενημερώσεις όταν αλλάζει η κατάσταση";
-"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο Home Assistant";
+"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο MySmartHomes";
 "onboarding.permissions.focus.grant_description" = "Επιτρέψτε την άδεια εστίασης για να δημιουργήσετε αισθητήρες για την κατάσταση εστίασης, γνωστή και ως \"μην ενοχλείτε\".";
 "onboarding.permissions.focus.title" = "Εστίαση";
 "onboarding.permissions.location.bullet.automations" = "Αυτοματισμοί βάσει παρουσίας";
@@ -456,27 +456,27 @@
 "onboarding.permissions.motion.bullet.activity" = "Αισθητήρας για τον τρέχοντα τύπο δραστηριότητας";
 "onboarding.permissions.motion.bullet.distance" = "Αισθητήρας για την απόσταση που διανύθηκε";
 "onboarding.permissions.motion.bullet.steps" = "Αισθητήρας για μετρήσεις βημάτων";
-"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο Home Assistant";
+"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο MySmartHomes";
 "onboarding.permissions.motion.grant_description" = "Να επιτρέπεται η άδεια κίνησης για τη δημιουργία αισθητήρων για δεδομένα κίνησης και βηματόμετρου.";
 "onboarding.permissions.motion.title" = "Κίνηση & Βηματομετρητής";
 "onboarding.permissions.notification.bullet.alert" = "Ειδοποιηθείτε από ειδοποιήσεις";
 "onboarding.permissions.notification.bullet.badge" = "Ενημέρωση εμβλήματος εικονιδίου εφαρμογής";
 "onboarding.permissions.notification.bullet.commands" = "Αποστολή εντολών στη συσκευή σας";
-"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το Home Assistant σας";
+"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το MySmartHomes σας";
 "onboarding.permissions.notification.grant_description" = "Επιτρέψτε το δικαίωμα ειδοποίησης για να δημιουργήσετε μια υπηρεσία ειδοποίησης για τη συσκευή σας.";
 "onboarding.permissions.notification.title" = "Ειδοποιήσεις";
 "onboarding.scanning.discovered_announcement" = "Ανακαλύφθηκε: %@";
 "onboarding.scanning.manual" = "Εισαγωγή διεύθυνσης χειροκίνητα";
 "onboarding.scanning.manual_hint" = "Δεν βρίσκετε τον διακομιστή σας;";
 "onboarding.scanning.title" = "Σάρωση για διακομιστές";
-"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή Home Assistant και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
+"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή MySmartHomes και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
 \
- Το Home Assistant είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
+ Το MySmartHomes είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
 "onboarding.welcome.learn_more" = "Μάθετε περισσότερα";
-"onboarding.welcome.title" = "Καλώς ορίσατε στο Home Assistant %@!";
+"onboarding.welcome.title" = "Καλώς ορίσατε στο MySmartHomes %@!";
 "open_label" = "Άνοιγμα";
 "permission.screen.bluetooth.secondary_button" = "Παράλειψη";
-"permission.screen.bluetooth.subtitle" = "Η εφαρμογή Home Assistant μπορεί να βρει συσκευές χρησιμοποιώντας το Bluetooth αυτής της συσκευής. Επιτρέψτε την πρόσβαση Bluetooth για την εφαρμογή Home Assistant.";
+"permission.screen.bluetooth.subtitle" = "Η εφαρμογή MySmartHomes μπορεί να βρει συσκευές χρησιμοποιώντας το Bluetooth αυτής της συσκευής. Επιτρέψτε την πρόσβαση Bluetooth για την εφαρμογή MySmartHomes.";
 "permission.screen.bluetooth.title" = "Αναζήτηση συσκευών";
 "preview_output" = "Έξοδος προεπισκόπησης";
 "reload_label" = "Επαναφόρτωση";
@@ -504,7 +504,7 @@
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Εξωτερική διεύθυνση URL";
 "settings.connection_section.header" = "Σύνδεση";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "MySmartHomes Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "π.χ. http://homeassistant.local:8123";
 "settings.connection_section.internal_base_url.requires_setup.title" = "Απαιτεί ρύθμιση";
 "settings.connection_section.internal_base_url.ssid_bssid_required.title" = "Για να χρησιμοποιήσετε την εσωτερική διεύθυνση URL πρέπει να καθορίσετε το όνομα του δικτύου Wifi (SSID) ή τις διευθύνσεις υλικού, διαφορετικά η εφαρμογή θα χρησιμοποιεί πάντα την εξωτερική διεύθυνση URL.";
@@ -518,7 +518,7 @@
 "settings.connection_section.internal_url_ssids.footer" = "Η εσωτερική διεύθυνση URL θα χρησιμοποιηθεί όταν συνδέεται με καταχωρημένα SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή Home Assistant για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
+"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή MySmartHomes για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Ακριβής";
 "settings.connection_section.location_send_type.setting.never" = "Ποτέ";
 "settings.connection_section.location_send_type.setting.zone_only" = "Μόνο όνομα ζώνης";
@@ -548,7 +548,7 @@
 "settings.debugging.header.title" = "Εντοπισμός σφαλμάτων";
 "settings.debugging.shake_disclaimer.title" = "Τώρα, όταν κουνάτε τη συσκευή με την εφαρμογή ανοικτή, μπορείτε να έχετε πρόσβαση στις λειτουργίες εντοπισμού σφαλμάτων.";
 "settings.debugging.shake_disclaimer_optional.title" = "Κουνήστε ενώ είστε στην εφαρμογή για να ανοίξετε τον εντοπισμό σφαλμάτων";
-"settings.debugging.thread.footer" = "Ελέγξτε ποια διαπιστευτήρια Thread υπάρχουν μέσα στην Κλειδοθήκη Apple, μπορείτε επίσης να τα εισάγετε στο Home Assistant ή να τα διαγράψετε από την Κλειδοθήκη.";
+"settings.debugging.thread.footer" = "Ελέγξτε ποια διαπιστευτήρια Thread υπάρχουν μέσα στην Κλειδοθήκη Apple, μπορείτε επίσης να τα εισάγετε στο MySmartHomes ή να τα διαγράψετε από την Κλειδοθήκη.";
 "settings.debugging.title" = "Αποσφαλμάτωση";
 "settings.details_section.location_settings_row.title" = "Τοποθεσία";
 "settings.details_section.notification_settings_row.title" = "Ειδοποιήσεις";
@@ -582,7 +582,7 @@
 "settings.location_history.title" = "Ιστορικό Τοποθεσίας";
 "settings.navigation_bar.about_button.title" = "Σχετικά";
 "settings.navigation_bar.title" = "Ρυθμίσεις";
-"settings.reset_section.reset_alert.message" = "Θα γίνει επαναφορά των ρυθμίσεών σας και αυτή η συσκευή θα καταργηθεί από τις ειδοποιήσεις push και από τη διαμόρφωση του Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Θα γίνει επαναφορά των ρυθμίσεών σας και αυτή η συσκευή θα καταργηθεί από τις ειδοποιήσεις push και από τη διαμόρφωση του MySmartHomes.";
 "settings.reset_section.reset_alert.progress_message" = "Επαναφορά…";
 "settings.reset_section.reset_alert.title" = "Επαναφορά";
 "settings.reset_section.reset_app.title" = "Επαναφορά εφαρμογής (Κατάργηση διακομιστών και δεδομένων)";
@@ -591,7 +591,7 @@
 "settings.server_select.page_title" = "Διακομιστής";
 "settings.server_select.title" = "Διακομιστής";
 "settings.status_section.header" = "Κατάσταση";
-"settings.status_section.location_name_row.placeholder" = "Το Home Assistant μου";
+"settings.status_section.location_name_row.placeholder" = "Το MySmartHomes μου";
 "settings.status_section.location_name_row.title" = "Ονομα";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Έκδοση";
@@ -636,7 +636,7 @@
 "settings_details.general.app_icon.enum.electric_violet" = "Ηλεκτρικό βιολετί";
 "settings_details.general.app_icon.enum.fire_orange" = "Πορτοκαλί της φωτιάς";
 "settings_details.general.app_icon.enum.green" = "Πράσινο";
-"settings_details.general.app_icon.enum.ha_blue" = "Μπλε Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Μπλε MySmartHomes";
 "settings_details.general.app_icon.enum.old_beta" = "Παλιά beta";
 "settings_details.general.app_icon.enum.old_dev" = "Παλιά ανάπτυξη";
 "settings_details.general.app_icon.enum.old_release" = "Παλιά έκδοση";
@@ -774,7 +774,7 @@
 "settings_details.notifications.title" = "Ειδοποιήσεις";
 "settings_details.privacy.alerts.description" = "Επιτρέπει τον έλεγχο σημαντικών ειδοποιήσεων όπως τρωτά σημεία ασφαλείας.";
 "settings_details.privacy.alerts.title" = "Ειδοποιήσεις";
-"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του Home Assistant. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτή τη ρύθμιση.";
+"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του MySmartHomes. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτή τη ρύθμιση.";
 "settings_details.privacy.analytics.generic_title" = "Ανάλυση";
 "settings_details.privacy.crash_reporting.description" = "Επιτρέπει βαθύτερη παρακολούθηση των σφαλμάτων και άλλων σφαλμάτων στην εφαρμογή, με αποτέλεσμα την ταχύτερη δημοσίευση διορθώσεων. Δεν αποστέλλονται πληροφορίες που να είναι αναγνωρίσιμες από το χρήστη, εκτός από τις βασικές πληροφορίες συσκευής. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτή τη ρύθμιση.";
 "settings_details.privacy.crash_reporting.sentry" = "Αυτή η δυνατότητα χρησιμοποιεί αυτή τη στιγμή το Sentry ως προορισμό αναφοράς.";
@@ -818,7 +818,7 @@
 "thread.credentials.screen_title" = "Διαπιστευτήρια Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Βεβαιωθείτε ότι έχετε συνδεθεί με το λογαριασμό σας στο iCloud, ο οποίος είναι ιδιοκτήτης ενός Σπιτιού στο Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Δεν έχετε διαπιστευτήρια για κοινή χρήση";
-"thread.credentials.share_credentials_button_title" = "Μοιραστείτε τα διαπιστευτήρια με το Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Μοιραστείτε τα διαπιστευτήρια με το MySmartHomes";
 "thread.extended_pan_id.title" = "Εκτεταμένο PAN ID";
 "thread.management.title" = "Διαπιστευτήρια νήματος";
 "thread.network_key.title" = "Κλειδί δικτύου";
@@ -830,7 +830,7 @@
 "thread.store_in_keychain.error.message" = "Αποτυχία αποθήκευσης διαπιστευτηρίων νήματος στην κλειδοθήκη, σφάλμα: %@";
 "thread.store_in_keychain.error.title" = "Η λειτουργία απέτυχε";
 "thread.transter_to_apple.title" = "Μεταφορά στην Κλειδοθήκη Apple";
-"thread.transter_to_homeassistant.title" = "Μεταφορά στο Home Assistant";
+"thread.transter_to_homeassistant.title" = "Μεταφορά στο MySmartHomes";
 "token_error.connection_failed" = "Η σύνδεση απέτυχε.";
 "token_error.expired" = "Το διακριτικό έχει λήξει.";
 "token_error.token_unavailable" = "Το διακριτικό δεν είναι διαθέσιμο.";
@@ -1090,7 +1090,7 @@
 "widgets.action.name.navigate" = "Πλοήγηση";
 "widgets.action.name.nothing" = "Τίποτα";
 "widgets.action.name.run_script" = "Εκτέλεση σεναρίου";
-"widgets.actions.description" = "Εκτελέστε ενέργειες Home Assistant.";
+"widgets.actions.description" = "Εκτελέστε ενέργειες MySmartHomes.";
 "widgets.actions.not_configured" = "Δεν έχουν ρυθμιστεί ενέργειες";
 "widgets.actions.parameters.action" = "Ενέργεια";
 "widgets.actions.title" = "Ενέργειες";
@@ -1099,7 +1099,7 @@
 "widgets.assist.title" = "Assist";
 "widgets.assist.unknown_configuration" = "Διαμόρφωση";
 "widgets.button.reload_timeline" = "Επαναφόρτωση όλων των γραφικών στοιχείων";
-"widgets.controls.assist.description" = "Ανοίξτε τον βοηθό στην εφαρμογή Home Assistant";
+"widgets.controls.assist.description" = "Ανοίξτε τον βοηθό στην εφαρμογή MySmartHomes";
 "widgets.controls.assist.pipeline.placeholder" = "Επιλέξτε ένα pipeline";
 "widgets.controls.assist.title" = "Βοηθός";
 "widgets.controls.cover.description" = "Εναλλαγή ρολού";
@@ -1130,8 +1130,8 @@
 "widgets.custom.show_update_time.title" = "Τελευταία ενημέρωση:";
 "widgets.custom.subtitle" = "Δημιουργήστε γραφικά στοιχεία με το δικό σας στυλ";
 "widgets.custom.title" = "Προσαρμοσμένα γραφικά στοιχεία";
-"widgets.details.description" = "Εμφάνιση καταστάσεων με χρήση από το Home Assistant σε κείμενο";
-"widgets.details.description_with_warning" = "Εμφάνιση των καταστάσεων που χρησιμοποιούνται από το Home Assistant σε κείμενο. ΠΡΟΣΟΧΗ: Ο χρήστης πρέπει να είναι διαχειριστής για την πρόσβαση σε πρότυπα";
+"widgets.details.description" = "Εμφάνιση καταστάσεων με χρήση από το MySmartHomes σε κείμενο";
+"widgets.details.description_with_warning" = "Εμφάνιση των καταστάσεων που χρησιμοποιούνται από το MySmartHomes σε κείμενο. ΠΡΟΣΟΧΗ: Ο χρήστης πρέπει να είναι διαχειριστής για την πρόσβαση σε πρότυπα";
 "widgets.details.parameters.action" = "Ενέργεια";
 "widgets.details.parameters.details_template" = "Πρότυπο κειμένου λεπτομερειών (μόνο σε ορθογώνια)";
 "widgets.details.parameters.lower_template" = "Πρότυπο κάτω κειμένου";
@@ -1140,8 +1140,8 @@
 "widgets.details.parameters.upper_template" = "Πρότυπο πάνω κειμένου";
 "widgets.details.title" = "Λεπτομέρειες";
 "widgets.entity_state.placeholder" = "Κατάσταση οντότητας";
-"widgets.gauge.description" = "Εμφάνιση αριθμητικών καταστάσεων από το Home Assistant σε ένα μετρητή";
-"widgets.gauge.description_with_warning" = "Εμφάνιση αριθμητικών καταστάσεων από το Home Assistant σε ένα μετρητή. ΠΡΟΣΟΧΗ: Ο χρήστης πρέπει να είναι διαχειριστής για την πρόσβαση σε πρότυπα";
+"widgets.gauge.description" = "Εμφάνιση αριθμητικών καταστάσεων από το MySmartHomes σε ένα μετρητή";
+"widgets.gauge.description_with_warning" = "Εμφάνιση αριθμητικών καταστάσεων από το MySmartHomes σε ένα μετρητή. ΠΡΟΣΟΧΗ: Ο χρήστης πρέπει να είναι διαχειριστής για την πρόσβαση σε πρότυπα";
 "widgets.gauge.parameters.action" = "Ενέργεια";
 "widgets.gauge.parameters.gauge_type" = "Τύπος μετρητή";
 "widgets.gauge.parameters.gauge_type.capacity" = "Χωρητικότητα";
@@ -1154,7 +1154,7 @@
 "widgets.gauge.parameters.value_template" = "Τιμή πρότυπου (0-1)";
 "widgets.gauge.title" = "Μετρητής";
 "widgets.lights.description" = "Ενεργοποίηση/απενεργοποίηση φωτός";
-"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο Home Assistant.";
+"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο MySmartHomes.";
 "widgets.open_page.not_configured" = "Δεν υπάρχουν διαθέσιμες σελίδες";
 "widgets.open_page.title" = "Άνοιγμα σελίδας";
 "widgets.preview.custom.description" = "Δημιουργήστε το δικό σας γραφικό στοιχείο μέσα στην Εφαρμογή και στη συνέχεια εμφανίστε το εδώ.";
