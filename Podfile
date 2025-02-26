@@ -76,7 +76,10 @@ abstract_target 'iOS' do
     pod 'Eureka', git: 'https://github.com/xmartlabs/Eureka', branch: 'master'
 
     pod 'FirebaseMessaging'
-
+    pod 'Firebase/Auth'
+    pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+    
     pod 'SwiftMessages', '~> 10.0.1'
     pod 'ViewRow', git: 'https://github.com/EurekaCommunity/ViewRow', branch: 'master'
 
@@ -137,4 +140,16 @@ post_install do |installer|
     end
     # rubocop:enable Style/Next
   end
+  installer.pods_project.targets.each do |target|
+    if target.name == 'BoringSSL-GRPC'
+      target.source_build_phase.files.each do |file|
+        if file.settings && file.settings['COMPILER_FLAGS']
+          flags = file.settings['COMPILER_FLAGS'].split
+          flags.reject! { |flag| flag == '-GCC_WARN_INHIBIT_ALL_WARNINGS' }
+          file.settings['COMPILER_FLAGS'] = flags.join(' ')
+        end
+      end
+    end
+  end
 end
+
