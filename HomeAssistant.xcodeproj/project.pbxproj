@@ -5741,7 +5741,7 @@
 				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1330;
-				ORGANIZATIONNAME = "MySmartHomes";
+				ORGANIZATIONNAME = MySmartHomes;
 				TargetAttributes = {
 					111711E425B29ACB003C149E = {
 						CreatedOnToolsVersion = 12.3;
@@ -8906,7 +8906,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yildiz.MySmartHomes;
 				PRODUCT_MODULE_NAME = HomeAssistant;
-				PRODUCT_NAME = "MySmartHomes";
+				PRODUCT_NAME = MySmartHomes;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
