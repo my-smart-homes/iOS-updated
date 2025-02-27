@@ -899,6 +899,10 @@
 		42FCD0132B9B29740057783F /* ThreadCredentialsManagementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FCD00E2B9B29740057783F /* ThreadCredentialsManagementViewModel.swift */; };
 		42FCD0142B9B29740057783F /* ThreadCredentialDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FCD00F2B9B29740057783F /* ThreadCredentialDetailsView.swift */; };
 		42FCD0152B9B29740057783F /* ThreadCredentialsManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FCD0112B9B29740057783F /* ThreadCredentialsManagementView.swift */; };
+		48C9E9192D6F8279008C2443 /* MshSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9E9182D6F8274008C2443 /* MshSecret.swift */; };
+		48C9E91D2D6F8745008C2443 /* VersionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9E91C2D6F8743008C2443 /* VersionChecker.swift */; };
+		48C9E91F2D6F87BC008C2443 /* OnboardingLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9E91E2D6F87B6008C2443 /* OnboardingLoginViewController.swift */; };
+		48C9E9212D6F8A22008C2443 /* AESDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9E9202D6F8A20008C2443 /* AESDecryptor.swift */; };
 		491E98FF25D543560077BBE3 /* LogbookEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E98FE25D543560077BBE3 /* LogbookEntry.swift */; };
 		491E990025D543560077BBE3 /* LogbookEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E98FE25D543560077BBE3 /* LogbookEntry.swift */; };
 		539AA1653F4BCDB61FE7C696 /* Pods_iOS_Shared_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF66D14F92AF8BF2E9E98 /* Pods_iOS_Shared_iOS.framework */; };
@@ -2209,6 +2213,10 @@
 		42FCD00F2B9B29740057783F /* ThreadCredentialDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadCredentialDetailsView.swift; sourceTree = "<group>"; };
 		42FCD0112B9B29740057783F /* ThreadCredentialsManagementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadCredentialsManagementView.swift; sourceTree = "<group>"; };
 		479C2CCB032E2A0ECDE45B87 /* Pods-Tests-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-App/Pods-Tests-App.debug.xcconfig"; sourceTree = "<group>"; };
+		48C9E9182D6F8274008C2443 /* MshSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MshSecret.swift; sourceTree = "<group>"; };
+		48C9E91C2D6F8743008C2443 /* VersionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionChecker.swift; sourceTree = "<group>"; };
+		48C9E91E2D6F87B6008C2443 /* OnboardingLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLoginViewController.swift; sourceTree = "<group>"; };
+		48C9E9202D6F8A20008C2443 /* AESDecryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecryptor.swift; sourceTree = "<group>"; };
 		491E98FE25D543560077BBE3 /* LogbookEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookEntry.swift; sourceTree = "<group>"; };
 		553A33E097387AA44265DB13 /* Pods-iOS-App-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-iOS-App-metadata.plist"; path = "Pods/Pods-iOS-App-metadata.plist"; sourceTree = "<group>"; };
 		574F428FD5AD613411644AE4 /* Pods-iOS-Extensions-PushProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Extensions-PushProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Extensions-PushProvider/Pods-iOS-Extensions-PushProvider.release.xcconfig"; sourceTree = "<group>"; };
@@ -2970,6 +2978,7 @@
 		1168BF35271811C200DD4D15 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				48C9E91E2D6F87B6008C2443 /* OnboardingLoginViewController.swift */,
 				429821122CD0DD71005ECD39 /* Bluetooth */,
 				B661FC87226D478300E541DD /* OnboardingScanningViewController.swift */,
 				11DA6B4E2713912F008ADFAF /* OnboardingPermissionViewController.swift */,
@@ -4942,6 +4951,9 @@
 		B679B1FA1E1F3D020071D366 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				48C9E9202D6F8A20008C2443 /* AESDecryptor.swift */,
+				48C9E91C2D6F8743008C2443 /* VersionChecker.swift */,
+				48C9E9182D6F8274008C2443 /* MshSecret.swift */,
 				396F2B4C2C121D2B002F84FD /* Extensions */,
 				11DA6B4A27137A60008ADFAF /* InputAccessoryView.swift */,
 				115DA28C24F4646500C00BB1 /* MenuManager.swift */,
@@ -7075,6 +7087,7 @@
 				42C08CF72BA31F2700172EE5 /* CMSampleBuffer+AudioSamples.swift in Sources */,
 				42B1A7452C1305C300904548 /* WatchCommunicatorService.swift in Sources */,
 				42790C442C48077200E31B38 /* ImprovSuccessView.swift in Sources */,
+				48C9E9192D6F8279008C2443 /* MshSecret.swift in Sources */,
 				425573ED2B58904000145217 /* CarPlayEntityListItem.swift in Sources */,
 				11F55ECD25D3A364003977AC /* NotificationRateLimitViewController.swift in Sources */,
 				3E4087F02CEC7F210085DF29 /* WidgetBasicSensorView.swift in Sources */,
@@ -7103,6 +7116,7 @@
 				42D3E4B72C5D2C2700444BE6 /* WidgetScriptsAppIntent.swift in Sources */,
 				4251AA9B2C6B9DBE004CCC9D /* MagicItemCustomizationViewModel.swift in Sources */,
 				422F88142D4282CD00706A0A /* CustomWidgetToggleAppIntent.swift in Sources */,
+				48C9E9212D6F8A22008C2443 /* AESDecryptor.swift in Sources */,
 				423179802D54FADD0037A8A4 /* AppIntentHaptics.swift in Sources */,
 				4273C48F2C885FB00065A5B4 /* SFSymbolEntity.swift in Sources */,
 				116D3A442724EFFB00EF5D21 /* OnboardingAuthTokenExchange.swift in Sources */,
@@ -7127,6 +7141,7 @@
 				42AC94A52CF872520050A62C /* TileCardStyleModifier.swift in Sources */,
 				42DD84162B14D7AC00936F16 /* WebViewExternalBusMessage.swift in Sources */,
 				11EFCDD324F5F39100314D85 /* WebViewWindowController.swift in Sources */,
+				48C9E91F2D6F87BC008C2443 /* OnboardingLoginViewController.swift in Sources */,
 				11EFCDE024F60E5900314D85 /* BasicSceneDelegate.swift in Sources */,
 				403AE90E2C2E28B200D48147 /* WidgetGaugeAppIntent.swift in Sources */,
 				42FCCFFF2B9B1C310057783F /* ThreadCredentialsSharingView.swift in Sources */,
@@ -7141,6 +7156,7 @@
 				42B74A642D36B17000C37304 /* ReloadWidgetsAppIntent.swift in Sources */,
 				42FCD0152B9B29740057783F /* ThreadCredentialsManagementView.swift in Sources */,
 				1168BF33271809C600DD4D15 /* OnboardingAuthError.swift in Sources */,
+				48C9E91D2D6F8745008C2443 /* VersionChecker.swift in Sources */,
 				B661FB6F226BCCAD00E541DD /* ConnectionSettingsViewController.swift in Sources */,
 				42F1DA632B4D54CB002729BC /* CarPlayTemplateProvider.swift in Sources */,
 			);

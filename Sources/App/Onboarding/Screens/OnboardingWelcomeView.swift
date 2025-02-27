@@ -41,9 +41,19 @@ struct OnboardingWelcomeView: View {
             .padding()
         }
     }
+    
+    struct OnboardingLoginViewControllerRepresentable: UIViewControllerRepresentable {
+        func makeUIViewController(context: Context) -> OnboardingLoginViewController {
+            return OnboardingLoginViewController()
+        }
+        
+        func updateUIViewController(_ uiViewController: OnboardingLoginViewController, context: Context) {
+            // Update the view controller if needed
+        }
+    }
 
     private var continueButton: some View {
-        NavigationLink(destination: OnboardingScanningView()) {
+        NavigationLink(destination: OnboardingLoginViewControllerRepresentable()) {
             Text(verbatim: L10n.continueLabel)
                 .font(.callout.bold())
                 .foregroundColor(.white)

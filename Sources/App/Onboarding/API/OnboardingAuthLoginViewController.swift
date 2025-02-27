@@ -9,6 +9,8 @@ protocol OnboardingAuthLoginViewController: UIViewController {
 }
 
 class OnboardingAuthLoginViewControllerImpl: UIViewController, OnboardingAuthLoginViewController, WKNavigationDelegate {
+    static var webViewUserName: String?
+    static var webViewPassword: String?
     let authDetails: OnboardingAuthDetails
     let promise: Promise<URL>
     private let resolver: Resolver<URL>
@@ -104,6 +106,145 @@ class OnboardingAuthLoginViewControllerImpl: UIViewController, OnboardingAuthLog
             decisionHandler(.allow)
         }
     }
+    
+        // inject js on page load
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        print("Page has finished loading.")
+        injectAutoLoginScript()
+    }
+    
+    private func injectAutoLoginScript() {
+            // Escape username and password to avoid special character issues
+        let escapedUsername = OnboardingAuthLoginViewControllerImpl.webViewUserName!.replacingOccurrences(of: "\"", with: "\\\"")
+        let escapedPassword = OnboardingAuthLoginViewControllerImpl.webViewPassword!.replacingOccurrences(of: "\"", with: "\\\"")
+
+            // Define the JavaScript for autofilling and triggering login
+            let jsScript = """
+            (function() {
+                let found = false;
+
+                function createLoadingOverlay() {
+                    var overlay = document.createElement('div');
+                    overlay.id = 'loadingOverlay';
+                    overlay.style.position = 'fixed';
+                    overlay.style.top = '0';
+                    overlay.style.left = '0';
+                    overlay.style.width = '100%';
+                    overlay.style.height = '100%';
+                    overlay.style.backgroundColor = 'white';
+                    overlay.style.zIndex = '9999';
+                    overlay.style.display = 'flex';
+                    overlay.style.flexDirection = 'column';
+                    overlay.style.justifyContent = 'center';
+                    overlay.style.alignItems = 'center';
+                    overlay.innerHTML = `
+                        <div class="spinner"></div>
+                        <p style="font-size: 24px; font-family: Arial, sans-serif; color: black;">Signing in...</p>
+                    `;
+
+                    var style = document.createElement('style');
+                    style.innerHTML = `
+                        .spinner {
+                            border: 8px solid #f3f3f3; /* Light grey */
+                            border-top: 8px solid #3498db; /* Blue */
+                            border-radius: 50%;
+                            width: 50px;
+                            height: 50px;
+                            animation: spin 1s linear infinite;
+                        }
+
+                        @keyframes spin {
+                            0% { transform: rotate(0deg); }
+                            100% { transform: rotate(360deg); }
+                        }
+                    `;
+                    document.head.appendChild(style);
+                    document.body.appendChild(overlay);
+                }
+
+                function showErrorInOverlay() {
+                    const overlay = document.getElementById('loadingOverlay');
+                    if (overlay) {
+                        overlay.innerHTML = `
+                            <p style="font-size: 24px; font-family: Arial, sans-serif; color: red;text-align:center">⚠️<br/><br/>Invalid username or password.</p>
+                        `;
+                    }
+                }
+
+                function removeLoadingOverlay() {
+                    var overlay = document.getElementById('loadingOverlay');
+                    if (overlay) {
+                        overlay.remove();
+                    }
+                }
+
+                function checkForErrorAlert() {
+                    const interval = setInterval(() => {
+                        const isErrorAlertPresent = document.querySelector('ha-alert[alert-type="error"]') !== null;
+                        if (isErrorAlertPresent) {
+                            clearInterval(interval); // Stop checking once error is detected
+                            showErrorInOverlay();    // Display error message in the overlay
+                        }
+                    }, 1000); // Check every 1 second
+                }
+
+                function checkInputElement() {
+                    if (found) { return; }
+
+                    var inputElement = document.querySelector('input[name="username"]');
+                    if (inputElement) {
+                        found = true;
+                        console.log("Input element found");
+                        doSignIn();
+                    } else {
+                        console.log("Input element not found");
+                    }
+                }
+
+                function doSignIn() {
+                    var usernameInput = document.querySelector('input[name="username"]');
+                    var passwordInput = document.querySelector('input[name="password"]');
+                    var loginButton = document.querySelector('mwc-button');
+
+                    usernameInput.value = "\(escapedUsername)";
+                    var usernameEvent = new Event('input', { bubbles: true });
+                    usernameInput.dispatchEvent(usernameEvent);
+
+                    passwordInput.value = "\(escapedPassword)";
+                    var passwordEvent = new Event('input', { bubbles: true });
+                    passwordInput.dispatchEvent(passwordEvent);
+
+                    // Add a slight delay before clicking the login button
+                    setTimeout(function() {
+                        var clickEvent = new MouseEvent('click', {
+                            view: window,
+                            bubbles: true,
+                            cancelable: true
+                        });
+                        loginButton.dispatchEvent(clickEvent);
+
+                        // Start checking for error alert after login attempt
+                        checkForErrorAlert();
+
+                        // Simulate removing overlay after login attempt (adjust if needed)
+                       //  setTimeout(removeLoadingOverlay, 5000); // remove after 5 seconds
+                    }, 100); // 100 milliseconds delay
+                }
+
+                setInterval(checkInputElement, 1000);
+                createLoadingOverlay();
+            })();
+            """
+
+                // Inject JavaScript into the web view
+            webView.evaluateJavaScript(jsScript) { result, error in
+                if let error = error {
+                    print("JavaScript injection failed: \(error)")
+                } else {
+                    print("JavaScript executed successfully")
+                }
+            }
+        }
 }
 
 #if DEBUG

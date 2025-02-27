@@ -3,6 +3,8 @@ import Shared
 import UIKit
 
 class OnboardingManualURLViewController: UIViewController, UITextFieldDelegate {
+    static var externalURL: String?
+    static var internalUrl: String?
     private let urlField = UITextField()
     private var connectButton: UIButton?
     private var connectLoading: UIActivityIndicatorView?
@@ -11,12 +13,19 @@ class OnboardingManualURLViewController: UIViewController, UITextFieldDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        urlField.becomeFirstResponder()
+        // urlField.becomeFirstResponder()
+        if let externalURL = OnboardingManualURLViewController.externalURL {
+            urlField.text = externalURL
+            updateConnectButton()
+            connect() // Auto-connect if the URL is set
+        } else {
+            urlField.becomeFirstResponder()
+        }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("OnboardingManualURLViewController viewDidLoad called")
         view.backgroundColor = .systemBackground
 
         let (scrollView, stackView, equalSpacers) = UIView.contentStackView(in: view, scrolling: true)
