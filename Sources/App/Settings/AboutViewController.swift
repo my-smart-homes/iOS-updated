@@ -56,19 +56,6 @@ class AboutViewController: HAFormViewController {
                 $0.tag = "logoView"
             }
 
-            +++ pushLookingButtonRow {
-                $0.title = L10n.About.Beta.title
-                $0.disabled = Condition(booleanLiteral: Current.appConfiguration == .beta)
-            }.onCellSelection { _, _ in
-                let urlStr: String
-                if Current.isCatalyst {
-                    urlStr = "https://companion.home-assistant.io/app/ios/beta_mac"
-                } else {
-                    urlStr = "https://companion.home-assistant.io/app/ios/beta"
-                }
-                // We want to open this in Safari so the TestFlight redirect works.
-                UIApplication.shared.open(URL(string: urlStr)!, options: [:], completionHandler: nil)
-            }
 
             <<< pushLookingButtonRow {
                 $0.title = L10n.About.Acknowledgements.title
@@ -78,7 +65,8 @@ class AboutViewController: HAFormViewController {
                     _ = vc.navigationController?.popViewController(animated: true)
                 })
             }
-
+            
+            /*
             <<< pushLookingButtonRow {
                 $0.title = L10n.About.Review.title
             }.onCellSelection { _, _ in
@@ -97,13 +85,14 @@ class AboutViewController: HAFormViewController {
                 let urlStr = "https://companion.home-assistant.io/app/ios/translate"
                 openURLInBrowser(URL(string: urlStr)!, self)
             }
-
+            
+            */
             +++ pushLookingButtonRow {
                 $0.title = L10n.About.Website.title
             }.onCellSelection { _, _ in
-                openURLInBrowser(URL(string: "https://www.home-assistant.io/")!, self)
+                openURLInBrowser(URL(string: "https://mysmarthomes.us/")!, self)
             }
-
+            /*
             <<< pushLookingButtonRow {
                 $0.title = L10n.About.Forums.title
             }.onCellSelection { _, _ in
@@ -147,6 +136,7 @@ class AboutViewController: HAFormViewController {
             }.onCellSelection { _, _ in
                 openURLInBrowser(URL(string: "https://companion.home-assistant.io/app/ios/issues")!, self)
             }
+             */
     }
 
     override func didReceiveMemoryWarning() {
