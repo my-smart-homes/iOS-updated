@@ -1172,3 +1172,5 @@ MySmartHomes ist eine kostenlose und Open-Source Heimautomationssoftware mit dem
 "widgets.sensors.not_configured" = "Keine Sensoren konfiguriert";
 "widgets.sensors.title" = "Sensoren";
 "yes_label" = "Ja";
+"AssistInApp" = "Assist In App";
+"AssistInApp.description" = "Ask for Assistance in App";

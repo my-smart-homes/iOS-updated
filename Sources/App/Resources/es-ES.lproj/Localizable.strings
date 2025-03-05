@@ -1171,3 +1171,5 @@ MySmartHomes is free and open source home automation software with a focus on lo
 "widgets.sensors.not_configured" = "No Sensors Configured";
 "widgets.sensors.title" = "Sensors";
 "yes_label" = "Yes";
+"AssistInApp" = "Assist In App";
+"AssistInApp.description" = "Ask for Assistance in App";
