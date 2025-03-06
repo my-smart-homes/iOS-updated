@@ -86,3 +86,5 @@ Brewfile.lock.json
 vendor/bundle
 .env.development
 Sources/App/Utilities/MshSecret.swift
+Sources/App/Resources/GoogleService-Info-Release.plist
+
