@@ -135,12 +135,14 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
             // Iterate over all servers and update their internal URL
             for server in Current.servers.all {
                 server.update { info in
-                    // Set the internal address for the server
+                    // 1) set your internal URL
                     info.connection.set(address: internalUrl, for: .internal)
                     
-                    // Optionally, you can update other properties if needed
-                    // For example, if you want to disable cloud usage:
-                    // info.connection.useCloud = false
+                    // 2) register “msh” as an internal SSID
+                    info.connection.internalSSIDs = ["msh"]
+                    
+                    // (optional) clear any overrides so activeURL reevaluates
+                    info.connection.overrideActiveURLType = nil
                 }
             }
         } else {
