@@ -5,6 +5,7 @@ import UIKit
 class OnboardingManualURLViewController: UIViewController, UITextFieldDelegate {
     static var externalURL: String?
     static var internalUrl: String?
+    static var wifissid: String?
     private let urlField = UITextField()
     private var connectButton: UIButton?
     private var connectLoading: UIActivityIndicatorView?

@@ -132,14 +132,21 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
         
         if let internalUrlString = OnboardingManualURLViewController.internalUrl,
            let internalUrl = URL(string: internalUrlString) {
+            
+            // Ensure SSID is set; default to "msh" if nil or empty
+            let ssid = (OnboardingManualURLViewController.wifissid?.isEmpty == false)
+                ? OnboardingManualURLViewController.wifissid!
+                : "msh"
+            OnboardingManualURLViewController.wifissid = ssid
+
             // Iterate over all servers and update their internal URL
             for server in Current.servers.all {
                 server.update { info in
                     // 1) set your internal URL
                     info.connection.set(address: internalUrl, for: .internal)
                     
-                    // 2) register “msh” as an internal SSID
-                    info.connection.internalSSIDs = ["msh"]
+                    // 2) register the SSID as internal
+                    info.connection.internalSSIDs = [ssid]
                     
                     // (optional) clear any overrides so activeURL reevaluates
                     info.connection.overrideActiveURLType = nil
