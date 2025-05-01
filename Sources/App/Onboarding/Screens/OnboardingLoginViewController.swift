@@ -275,25 +275,27 @@ class OnboardingLoginViewController: UIViewController, OnboardingViewController,
                     if let url = externalUrl, !url.lowercased().hasPrefix("http://") && !url.lowercased().hasPrefix("https://") {
                         externalUrl = "https://" + url
                     }
-    
-                    OnboardingManualURLViewController.internalUrl = internalUrl
-                    OnboardingManualURLViewController.externalURL = externalUrl
-                    OnboardingAuthLoginViewControllerImpl.webViewUserName = email
-                    OnboardingAuthLoginViewControllerImpl.webViewPassword = webviewPassword
-                    
-                    print("Setting static properties for next screen")
-                    print("Internal URL set to: \(String(describing: internalUrl))")
-                    print("External URL set to: \(String(describing: externalUrl))")
-                    print("Username set to: \(email)")
-                    print("Password length: \(webviewPassword.count)")
-
-                    // Navigate to the next screen
-                    print("Attempting to navigate to OnboardingManualURLViewController")
-                    print("Trying alternative navigation method")
-                    let nextVC = OnboardingManualURLViewController()
-                    self.navigationController?.pushViewController(nextVC, animated: true)
-                    print("Alternative navigation completed")
-                    print("Navigation completed")
+                    self.showWifiSSIDDialog(completion: { [weak self] in
+                        guard let self = self else { return }
+                        OnboardingManualURLViewController.internalUrl = internalUrl
+                        OnboardingManualURLViewController.externalURL = externalUrl
+                        OnboardingAuthLoginViewControllerImpl.webViewUserName = email
+                        OnboardingAuthLoginViewControllerImpl.webViewPassword = webviewPassword
+                        
+                        print("Setting static properties for next screen")
+                        print("Internal URL set to: \(String(describing: internalUrl))")
+                        print("External URL set to: \(String(describing: externalUrl))")
+                        print("Username set to: \(email)")
+                        print("Password length: \(webviewPassword.count)")
+                        
+                        // Navigate to the next screen
+                        print("Attempting to navigate to OnboardingManualURLViewController")
+                        print("Trying alternative navigation method")
+                        let nextVC = OnboardingManualURLViewController()
+                        self.navigationController?.pushViewController(nextVC, animated: true)
+                        print("Alternative navigation completed")
+                        print("Navigation completed")
+                    })
                 } else {
                     self.showAlert(title: "Error", message: "Document data is nil or invalid.")
                 }
@@ -347,6 +349,37 @@ class OnboardingLoginViewController: UIViewController, OnboardingViewController,
 
         present(alertController, animated: true, completion: nil)
     }
+    
+    private func showWifiSSIDDialog(completion: @escaping () -> Void) {
+            let alertController = UIAlertController(
+                title: "Enter MSH Wi-Fi SSID",
+                message: nil,
+                preferredStyle: .alert
+            )
+            
+            alertController.addTextField { textField in
+                textField.text = "msh"
+                textField.placeholder = "Wi-Fi SSID"
+                textField.autocapitalizationType = .none
+            }
+            
+            let submitAction = UIAlertAction(title: "OK", style: .default) { _ in
+                if let wifissid = alertController.textFields?.first?.text, !wifissid.isEmpty {
+                    OnboardingManualURLViewController.wifissid = wifissid
+                    completion() // Call completion to proceed with the flow
+                }
+            }
+            
+            // Option to cancel
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
+                // Even if canceled, we still need to proceed with the flow
+                completion()
+            }
+            
+            alertController.addAction(submitAction)
+            
+            present(alertController, animated: true, completion: completion)
+        }
 
     
     @objc private func forgotPasswordTapped(_ sender: UIButton) {
