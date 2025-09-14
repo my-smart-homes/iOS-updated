@@ -29,7 +29,7 @@ pod 'PromiseKit', '~> 8.1.1'
 pod 'Improv-iOS', '~> 0.0.6'
 pod 'SFSafeSymbols', '~> 5.3'
 
-pod 'RealmSwift', '~> 10.45.0'
+pod 'RealmSwift', '~> 10.54.5'
 pod 'GRDB.swift', git: 'https://github.com/groue/GRDB.swift.git', tag: 'v7.0.0'
 pod 'UIColor_Hex_Swift'
 pod 'Version'
@@ -75,10 +75,10 @@ abstract_target 'iOS' do
     pod 'CPDAcknowledgements', git: 'https://github.com/CocoaPods/CPDAcknowledgements', branch: 'master'
     pod 'Eureka', git: 'https://github.com/xmartlabs/Eureka', branch: 'master'
 
-    pod 'FirebaseMessaging', '~> 10.18.0'
-    pod 'Firebase/Auth', '~> 10.18.0'
-    pod 'Firebase/Core', '~> 10.18.0'
-    pod 'Firebase/Firestore', '~> 10.18.0'
+    pod 'FirebaseMessaging', '~> 10.22.0'
+    pod 'Firebase/Auth', '~> 10.22.0'
+    pod 'Firebase/Core', '~> 10.22.0'
+    pod 'Firebase/Firestore', '~> 10.22.0'
     
     pod 'SwiftMessages', '~> 10.0.1'
     pod 'ViewRow', git: 'https://github.com/EurekaCommunity/ViewRow', branch: 'master'
