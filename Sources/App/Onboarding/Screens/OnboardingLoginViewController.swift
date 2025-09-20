@@ -95,24 +95,17 @@ class OnboardingLoginViewController: UIViewController, OnboardingViewController,
         loginButton.addTarget(self, action: #selector(loginTapped(_:)), for: .touchUpInside)
         stackView.addArrangedSubview(loginButton)
         
-        // Forgot Password Button
-        let forgotPasswordButton = UIButton(type: .system)
-        forgotPasswordButton.setTitle("Forgot Password?", for: .normal)
-        forgotPasswordButton.setTitleColor(.lightGray, for: .normal)
-        forgotPasswordButton.addTarget(self, action: #selector(forgotPasswordTapped(_:)), for: .touchUpInside)
-        stackView.addArrangedSubview(forgotPasswordButton)
-        
-        // Sign Up Button
-        let signUpButton = UIButton(type: .system)
-        signUpButton.setTitle("Sign up", for: .normal)
-        signUpButton.setTitleColor(.white, for: .normal)
-        signUpButton.layer.borderColor = UIColor.white.cgColor
-        signUpButton.layer.borderWidth = 1
-        signUpButton.layer.cornerRadius = 10
-        signUpButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        signUpButton.widthAnchor.constraint(equalToConstant: 300).isActive = true
-        signUpButton.addTarget(self, action: #selector(signUpTapped(_:)), for: .touchUpInside)
-        stackView.addArrangedSubview(signUpButton)
+        // Need Support Button
+        let supportButton = UIButton(type: .system)
+        supportButton.setTitle("Need support?", for: .normal)
+        supportButton.setTitleColor(.white, for: .normal)
+        supportButton.layer.borderColor = UIColor.white.cgColor
+        supportButton.layer.borderWidth = 1
+        supportButton.layer.cornerRadius = 10
+        supportButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        supportButton.widthAnchor.constraint(equalToConstant: 300).isActive = true
+        supportButton.addTarget(self, action: #selector(supportTapped(_:)), for: .touchUpInside)
+        stackView.addArrangedSubview(supportButton)
         
         // Activity Indicator (Loader)
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
@@ -382,12 +375,10 @@ class OnboardingLoginViewController: UIViewController, OnboardingViewController,
         }
 
     
-    @objc private func forgotPasswordTapped(_ sender: UIButton) {
-        // Lógica para recuperação de senha
-    }
-    
-    @objc private func signUpTapped(_ sender: UIButton) {
-        // Lógica para ir para a tela de cadastro
+    @objc private func supportTapped(_ sender: UIButton) {
+        if let url = URL(string: "https://mysmarthomes.us/contact/") {
+            UIApplication.shared.open(url)
+        }
     }
     
     // Método para exibir alertas

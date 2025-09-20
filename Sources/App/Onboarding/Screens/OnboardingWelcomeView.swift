@@ -15,7 +15,7 @@ struct OnboardingWelcomeView: View {
         }
         .frame(maxWidth: 600)
         .fullScreenCover(isPresented: $showLearnMore) {
-            SafariWebView(url: URL(string: "http://www.home-assistant.io")!)
+            SafariWebView(url: URL(string: "https://mysmarthomes.us/")!)
         }
     }
 
